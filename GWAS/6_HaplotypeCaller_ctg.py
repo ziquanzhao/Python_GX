@@ -13,7 +13,7 @@ if os.path.exists('6_HaplotypeCaller'):
         if i.find('bai') == -1 and i.find('metrics') == -1:
             name = i.replace('.bam', '')
             with open('6_HaplotypeCaller.sh', 'a') as file:
-                with open('chrid.txt', 'r') as chrid:
+                with open('../我的Python应用/chrid.txt', 'r') as chrid:
                     chrid_list = chrid.readlines()
                     for x in chrid_list:
                         file.write(f'java -jar /mnt/storage/zhaoziquan/GWAS/software/gatk-4.2.6.1/gatk-package-4.2.6.1-local.jar HaplotypeCaller -R {ref_path} -I {bam_dedup_path}{name}.bam -ERC GVCF -L {x} -O {name}_chr1.gvcf\n')
