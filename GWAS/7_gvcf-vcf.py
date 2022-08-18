@@ -10,49 +10,49 @@ if os.path.exists('7_gvcf-vcf'):
     with open('7_gvcf-vcf.sh', 'a') as gvcf_vcf:
         gvcf_vcf.write('#!/bin/bash\n')
     for i in bam_filename:
-        if 'chr1' in i:
+        if 'chr1' in i and 'idx' not in i:
             with open('chr1.txt', 'a') as chr1:
                 chr1.write('-V i\0')
-        elif 'chr2' in i:
+        elif 'chr2' in i and 'idx' not in i:
             with open('chr2.txt', 'a') as chr2:
                 chr2.write('-V i\0')
-        elif 'chr3' in i:
+        elif 'chr3' in i and 'idx' not in i:
             with open('chr3.txt', 'a') as chr3:
                 chr3.write('-V i\0')
-        elif 'chr4' in i:
+        elif 'chr4' in i and 'idx' not in i:
             with open('chr4.txt', 'a') as chr4:
                 chr4.write('-V i\0')
-        elif 'chr5' in i:
+        elif 'chr5' in i and 'idx' not in i:
             with open('chr5.txt', 'a') as chr5:
                 chr5.write('-V i\0')
-        elif 'chr6' in i:
+        elif 'chr6' in i and 'idx' not in i:
             with open('chr6.txt', 'a') as chr6:
                 chr6.write('-V i\0')
-        elif 'chr7' in i:
+        elif 'chr7' in i and 'idx' not in i:
             with open('chr7.txt', 'a') as chr7:
                 chr7.write('-V i\0')
-        elif 'chr8' in i:
+        elif 'chr8' in i and 'idx' not in i:
             with open('chr8.txt', 'a') as chr8:
                 chr8.write('-V i\0')
-        elif 'chr9' in i:
+        elif 'chr9' in i and 'idx' not in i:
             with open('chr9.txt', 'a') as chr9:
                 chr9.write('-V i\0')
-        elif 'chr10' in i:
+        elif 'chr10' in i and 'idx' not in i:
             with open('chr10.txt', 'a') as chr10:
                 chr10.write('-V i\0')
-        elif 'chr11' in i:
+        elif 'chr11' in i and 'idx' not in i:
             with open('chr11.txt', 'a') as chr11:
                 chr11.write('-V i\0')
-        elif 'chr12' in i:
+        elif 'chr12' in i and 'idx' not in i:
             with open('chr12.txt', 'a') as chr12:
                 chr2.write('-V i\0')
-        elif 'chr13' in i:
+        elif 'chr13' in i and 'idx' not in i:
             with open('chr13.txt', 'a') as chr13:
                 chr13.write('-V i\0')
-        elif 'chr14' in i:
+        elif 'chr14' in i and 'idx' not in i:
             with open('chr14.txt', 'a') as chr14:
                 chr14.write('-V i\0')
-        elif 'chr15' in i:
+        elif 'chr15' in i and 'idx' not in i:
             with open('chr15.txt', 'a') as chr15:
                 chr15.write('-V i\0')
 
@@ -181,49 +181,49 @@ else:
     with open('7_gvcf-vcf.sh', 'a') as gvcf_vcf:
         gvcf_vcf.write('#!/bin/bash\n')
     for i in bam_filename:
-        if 'chr1' in i:
+        if 'chr1' in i and 'idx' not in i:
             with open('chr1.txt', 'a') as chr1:
                 chr1.write('-V i\0')
-        elif 'chr2' in i:
+        elif 'chr2' in i and 'idx' not in i:
             with open('chr2.txt', 'a') as chr2:
                 chr2.write('-V i\0')
-        elif 'chr3' in i:
+        elif 'chr3' in i and 'idx' not in i:
             with open('chr3.txt', 'a') as chr3:
                 chr3.write('-V i\0')
-        elif 'chr4' in i:
+        elif 'chr4' in i and 'idx' not in i:
             with open('chr4.txt', 'a') as chr4:
                 chr4.write('-V i\0')
-        elif 'chr5' in i:
+        elif 'chr5' in i and 'idx' not in i:
             with open('chr5.txt', 'a') as chr5:
                 chr5.write('-V i\0')
-        elif 'chr6' in i:
+        elif 'chr6' in i and 'idx' not in i:
             with open('chr6.txt', 'a') as chr6:
                 chr6.write('-V i\0')
-        elif 'chr7' in i:
+        elif 'chr7' in i and 'idx' not in i:
             with open('chr7.txt', 'a') as chr7:
                 chr7.write('-V i\0')
-        elif 'chr8' in i:
+        elif 'chr8' in i and 'idx' not in i:
             with open('chr8.txt', 'a') as chr8:
                 chr8.write('-V i\0')
-        elif 'chr9' in i:
+        elif 'chr9' in i and 'idx' not in i:
             with open('chr9.txt', 'a') as chr9:
                 chr9.write('-V i\0')
-        elif 'chr10' in i:
+        elif 'chr10' in i and 'idx' not in i:
             with open('chr10.txt', 'a') as chr10:
                 chr10.write('-V i\0')
-        elif 'chr11' in i:
+        elif 'chr11' in i and 'idx' not in i:
             with open('chr11.txt', 'a') as chr11:
                 chr11.write('-V i\0')
-        elif 'chr12' in i:
+        elif 'chr12' in i and 'idx' not in i:
             with open('chr12.txt', 'a') as chr12:
                 chr2.write('-V i\0')
-        elif 'chr13' in i:
+        elif 'chr13' in i and 'idx' not in i:
             with open('chr13.txt', 'a') as chr13:
                 chr13.write('-V i\0')
-        elif 'chr14' in i:
+        elif 'chr14' in i and 'idx' not in i:
             with open('chr14.txt', 'a') as chr14:
                 chr14.write('-V i\0')
-        elif 'chr15' in i:
+        elif 'chr15' in i and 'idx' not in i:
             with open('chr15.txt', 'a') as chr15:
                 chr15.write('-V i\0')
 
