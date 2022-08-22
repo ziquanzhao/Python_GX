@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e23a9593-2b23-4663-87ae-9b9aa4a767ad" name="变更" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/GWAS/Trimmomatic.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GWAS/FastQC.py" beforeDir="false" afterPath="$PROJECT_DIR$/GWAS/FastQC.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/我的Python应用/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/我的Python应用/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/我的Python应用/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GWAS/Trimmomatic.py" beforeDir="false" afterPath="$PROJECT_DIR$/GWAS/Trimmomatic.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -749,6 +746,21 @@
       <option name="presentableId" value="Default" />
       <updated>1650544168325</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1661150323065</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1661150323065</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initial commit">
+      <created>1661150716601</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1661150716601</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -761,6 +773,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
