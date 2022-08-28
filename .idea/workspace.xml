@@ -5,14 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e23a9593-2b23-4663-87ae-9b9aa4a767ad" name="变更" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;GWAS/1_bwaindex.py">
-      <change afterPath="$PROJECT_DIR$/GWAS/gvcflist2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GWAS/rename.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GWAS/rename.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/我的Python应用/chr10.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/我的Python应用/list" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GWAS/hc.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GWAS/7_gvcf-vcf.py" beforeDir="false" afterPath="$PROJECT_DIR$/GWAS/7_gvcf-vcf.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/我的Python应用/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/我的Python应用/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GWAS/1_bwaindex.py" beforeDir="false" afterPath="$PROJECT_DIR$/GWAS/1_bwaindex.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GWAS/2_sam_sort_bam.py" beforeDir="false" afterPath="$PROJECT_DIR$/GWAS/2_sam_sort_bam.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GWAS/3_mark_duplications.py" beforeDir="false" afterPath="$PROJECT_DIR$/GWAS/3_mark_duplications.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GWAS/4_bamindex.py" beforeDir="false" afterPath="$PROJECT_DIR$/GWAS/4_bamindex.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GWAS/5_BQSR_bam.py" beforeDir="false" afterPath="$PROJECT_DIR$/GWAS/5_BQSR_bam.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GWAS/6_HaplotypeCaller.py" beforeDir="false" afterPath="$PROJECT_DIR$/GWAS/6_HaplotypeCaller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GWAS/6_HaplotypeCaller_ctg.py" beforeDir="false" afterPath="$PROJECT_DIR$/GWAS/6_HaplotypeCaller_ctg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GWAS/chrid.txt" beforeDir="false" afterPath="$PROJECT_DIR$/GWAS/chrid.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -783,7 +785,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661262396359</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;GWAS/1_bwaindex.py">
+      <created>1661667481822</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1661667481822</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
