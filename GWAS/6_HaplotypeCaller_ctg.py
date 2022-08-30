@@ -33,10 +33,6 @@ for i in bam_name:
                 ctg = ctg.replace('>', '')
                 hc_ctg.write(f'java -jar /mnt/storage/zhaoziquan/GWAS/software/gatk-4.2.6.1/gatk-package-4.2.6.1-local.jar HaplotypeCaller -R {ref_path} -I {bam_dedup_path}{bam_new_name}_sort_dedup.bam -ERC GVCF -L {ctg} -O {bam_new_name}_sort_dedup_{ctg}.gvcf\n')
 
-if os.path.exists('6_HaplotypeCaller_ctg_sh'):
-    print('已存在6_HaplotypeCaller_ctg_sh目录，无需创建')
-else:
-    os.mkdir('6_HaplotypeCaller_ctg_sh')
 
 os.system('mv ./6_HC_*.sh ./6_HaplotypeCaller_ctg_sh')
 print('请去6_HaplotypeCaller_ctg_sh目录寻找shell脚本，执行它们，注意把结果输出到6_HaplotypeCaller_ctg文件夹里')
