@@ -22,7 +22,7 @@ with open('gvcflist.txt', 'r') as gvcf_list:
             gcvf = f'_sort_dedup_chr{y}.gvcf'
             if gcvf in i and 'idx' not in i:
                 with open(f'chr{y}.txt', 'a') as chr:
-                    chr.write(f'-V {i} ')
+                    chr.write(f'-V {all_gvcf}{i} ')
 
 for x in range(1,16,1):
     with open(f'chr{x}.txt', 'r') as file:

@@ -4,8 +4,9 @@
 # 邮箱:2939818719@qq.com
 
 import os
+import re
 
 
-a = 'abc.vcf\ncd'
-b = a.replace('.vcf\n', '')
+a = 'WF113_sort_dedup_chr11.gvcf\na'
+b = re.sub('_sort_dedup_chr\d*.gvcf\n', '', a)
 print(b)

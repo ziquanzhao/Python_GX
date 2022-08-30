@@ -29,3 +29,6 @@ with open('8_select_INDEL.sh', 'a') as select_INDEL:
             vcf_new_name = i.replace('.vcf\n', '')
             vcf_id_name = vcf_new_name.replace('chr', '')
             select_snp.write(f'java -jar {GATK_sorfware_path} SelectVariants -R {ref_path} -V {vcf_path}{vcf_new_name}.vcf -O {vcf_new_name}_indel.vcf -L Lachesis_group{vcf_id_name} --select-type-to-include INDEL\n')
+
+os.system('mv ./8_select_*.sh ./8_select_SNP_INDEL')
+print('\033[1;36m在当前目录下，有一个叫8_select_SNP_INDEL的文件夹，里面有一个shell脚本，执行它即可\033[m')
