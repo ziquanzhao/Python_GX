@@ -5,8 +5,5 @@
 
 import os
 import re
-
-
-a = 'WF113_sort_dedup_chr11.gvcf\na'
-b = re.sub('_sort_dedup_chr\d*.gvcf\n', '', a)
-print(b)
+a = range(1, 5, 1)
+print(a[0],type(a[0]))

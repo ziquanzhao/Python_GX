@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e23a9593-2b23-4663-87ae-9b9aa4a767ad" name="变更" comment="Merge remote-tracking branch 'origin/master'">
-      <change afterPath="$PROJECT_DIR$/GWAS/7_gcvf-vcf_ctg.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GWAS/8_select_SNP_INDEL_ctg.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/_2022_8_23_21_46____.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2022_8_23_21_46_取消提交了变更_[变更]/shelved.patch" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GWAS/7_gvcf-vcf.py" beforeDir="false" afterPath="$PROJECT_DIR$/GWAS/7_gvcf-vcf.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GWAS/8_select_SNP_INDEL.py" beforeDir="false" afterPath="$PROJECT_DIR$/GWAS/8_select_SNP_INDEL.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GWAS/6_HaplotypeCaller_ctg.py" beforeDir="false" afterPath="$PROJECT_DIR$/GWAS/6_HaplotypeCaller_ctg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GWAS/7_gcvf-vcf_ctg.py" beforeDir="false" afterPath="$PROJECT_DIR$/GWAS/7_gvcf-vcf_ctg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GWAS/8_查看过滤参数分布情况.py" beforeDir="false" afterPath="$PROJECT_DIR$/GWAS/9_View_SNP_distribution.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GWAS/chrid.txt" beforeDir="false" afterPath="$PROJECT_DIR$/GWAS/ctgid.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/我的Python应用/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/我的Python应用/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/我的Python应用/字符串匹配提取输出.py" beforeDir="false" afterPath="$PROJECT_DIR$/我的Python应用/字符串匹配提取输出.py" afterDir="false" />
     </list>
@@ -69,20 +67,20 @@
       <recent name="E:\Python\Python第一章" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test">
-    <configuration name="多个父窗口怎么做" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true" nameIsGenerated="true">
-      <module name="Python学习" />
+  <component name="RunManager" selected="Python.字符串匹配提取输出">
+    <configuration name="字符串匹配提取输出" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true" nameIsGenerated="true">
+      <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="E:\Python\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/我的Python应用/GUI" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/我的Python应用" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/我的Python应用/GUI/多个父窗口怎么做.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/我的Python应用/字符串匹配提取输出.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -167,6 +165,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/我的Python应用/6_HaplotypeCaller.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="7_gvcf-vcf_ctg" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true" nameIsGenerated="true">
+      <module name="Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="E:\Python\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GWAS" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GWAS/7_gvcf-vcf_ctg.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -574,27 +593,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="bwa_aglin" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true" nameIsGenerated="true">
-      <module name="Python学习" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/我的Python应用" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/我的Python应用/bwa_aglin.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="布局管理器grid (1)" type="PythonConfigurationType" factoryName="Python" singleton="false" nameIsGenerated="true">
       <module name="Python学习" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -731,19 +729,19 @@
       <item itemvalue="Python.分支结构多种if函数" />
       <item itemvalue="Python.main" />
       <item itemvalue="Python.pdbqt文件输出能量值" />
+      <item itemvalue="Python.7_gvcf-vcf_ctg" />
+      <item itemvalue="Python.字符串匹配提取输出" />
       <item itemvalue="Python.rename" />
       <item itemvalue="Python.test" />
       <item itemvalue="Python.111111111111" />
-      <item itemvalue="Python.多个父窗口怎么做" />
-      <item itemvalue="Python.bwa_aglin" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.字符串匹配提取输出" />
         <item itemvalue="Python.test" />
+        <item itemvalue="Python.7_gvcf-vcf_ctg" />
         <item itemvalue="Python.rename" />
         <item itemvalue="Python.111111111111" />
-        <item itemvalue="Python.多个父窗口怎么做" />
-        <item itemvalue="Python.bwa_aglin" />
       </list>
     </recent_temporary>
   </component>
@@ -826,7 +824,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661854471240</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Merge remote-tracking branch 'origin/master'">
+      <created>1661917180009</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1661917180009</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

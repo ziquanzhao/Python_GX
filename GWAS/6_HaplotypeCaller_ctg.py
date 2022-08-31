@@ -19,8 +19,8 @@ ref_path = input('请输入参考基因组所在路径，例如：/mnt/storage/z
 
 bam_name = os.listdir(bam_dedup_path)
 
-with open('chrid.txt', 'r') as chrid:
-    ctg_name = chrid.readlines()
+with open('ctgid.txt', 'r') as ctgid:
+    ctg_name = ctgid.readlines()
 
 for i in bam_name:
     if i.find('bai') == -1 and i.find('metrics') == -1:
