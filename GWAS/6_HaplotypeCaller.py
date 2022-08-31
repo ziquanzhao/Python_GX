@@ -20,7 +20,7 @@ with open('6_HaplotypeCaller.sh', 'a') as HaplotypeCaller:
         if i.find('bai') == -1 and i.find('metrics') == -1:
             name = i.replace('.bam', '')
             for x in range(1, 16, 1):
-                HaplotypeCaller.write(f'java -jar /mnt/storage/zhaoziquan/GWAS/software/gatk-4.2.6.1/gatk-package-4.2.6.1-local.jar HaplotypeCaller -R {ref_path} -I {bam_dedup_path}{name}.bam -ERC GVCF -L Lachesis_group{x} -O {name}_chr1.gvcf\n')
+                HaplotypeCaller.write(f'java -jar /mnt/storage/zhaoziquan/GWAS/software/gatk-4.2.6.1/gatk-package-4.2.6.1-local.jar HaplotypeCaller -R {ref_path} -I {bam_dedup_path}{name}.bam -ERC GVCF -L Lachesis_group{x} -O {name}_chr{x}.gvcf\n')
 
 os.system('mv ./6_HaplotypeCaller.sh ./6_HaplotypeCaller')
 print('\033[1;36m在当前目录下，有一个叫6_HaplotypeCaller的文件夹，里面有一个shell脚本，执行它即可\033[m')
