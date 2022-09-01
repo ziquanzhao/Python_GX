@@ -22,16 +22,15 @@ with open('gvcflist.txt', 'r') as gvcf_list:
             gcvf = f'_sort_dedup_chr{y}.gvcf'
             if gcvf in i and 'idx' not in i:
                 with open(f'chr{y}.txt', 'a') as chr:
-                    chr.write(f'-V {i} ')
+                    chr.write(f'-V {all_gvcf}{i} ')
 
 for x in range(1,16,1):
     with open(f'chr{x}.txt', 'r') as file:
         V = file.read().replace('\n', '')
         with open(f'7_gvcf-vcf_{x}.sh', 'a') as file2:
             file2.write('#!/bin/bash\n')
-            file2.write(f'java -jar /mnt/storage/zhaoziquan/GWAS/software/gatk-4.2.6.1/gatk-package-4.2.6.1-local.jar CombineGVCFs -R {ref_path} {V} -O all_chr1.gvcf\n')
-            file2.write(f'java -jar /mnt/storage/zhaoziquan/GWAS/software/gatk-4.2.6.1/gatk-package-4.2.6.1-local.jar GenotypeGVCFs -R {ref_path} -V all_chr1.gvcf -O chr1.vcf\n')
-            file2.write('rm ./all_chr1.gvcf')
+            file2.write(f'java -jar /mnt/storage/zhaoziquan/GWAS/software/gatk-4.2.6.1/gatk-package-4.2.6.1-local.jar CombineGVCFs -R {ref_path} {V} -O all_chr1.g.vcf\n')
+            file2.write(f'java -jar /mnt/storage/zhaoziquan/GWAS/software/gatk-4.2.6.1/gatk-package-4.2.6.1-local.jar GenotypeGVCFs -R {ref_path} -V all_chr1.g.vcf -O chr1.vcf\n')
 
 os.system('rm ./gvcflist.txt')
 os.system('mv ./7_gvcf-vcf_*.sh ./7_gvcf-vcf')

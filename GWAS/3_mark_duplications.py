@@ -3,23 +3,21 @@
 # 编写时间：2022/7/1 16:52
 # 邮箱:2939818719@qq.com
 import os
-bam_path = input('请输入所有bam文件所在路径，例如：/mnt/storage/zhaoziquan/GWAS/2_bwaaglin_sort_bam/：')
-bam_filename = os.listdir(bam_path)
+
 if os.path.exists('3_mark_duplicates'):
-    with open('3_mark_duplicates.sh', 'a') as mark_duplicates:
-        mark_duplicates.write('#!/bin/bash\n')
-    for i in bam_filename:
-        name = i.replace('.bam', '')
-        with open('3_mark_duplicates.sh', 'a') as file:
-            file.write(f'java -jar /mnt/storage/zhaoziquan/GWAS/software/picard/picard.jar MarkDuplicates -MAX_FILE_HANDLES_FOR_READ_ENDS_MAP 800 -REMOVE_DUPLICATES false -INPUT {bam_path}{name}.bam -OUTPUT {name}_dedup.bam -METRICS_FILE {name}_dedup.metrics -VALIDATION_STRINGENCY LENIENT\n')
+    print('3_mark_duplicates目录已存在，无需创建')
 else:
     os.mkdir('3_mark_duplicates')
-    with open('3_mark_duplicates.sh', 'a') as mark_duplicates:
-        mark_duplicates.write('#!/bin/bash\n')
+
+bam_path = input('请输入所有bam文件所在路径，例如：/mnt/storage/zhaoziquan/GWAS/2_bwaaglin_sort_bam/：')
+picard_sorfware_path = input('请输入picard软件里picard.jar这个java包的绝对路径，例如：/mnt/storage/zhaoziquan/GWAS/software/picard/picard.jar：')
+bam_filename = os.listdir(bam_path)
+
+with open('3_mark_duplicates.sh', 'a') as mark_duplicates:
+    mark_duplicates.write('#!/bin/bash\n')
     for i in bam_filename:
         name = i.replace('.bam', '')
-        with open('3_mark_duplicates.sh', 'a') as file:
-            file.write(f'java -jar /mnt/storage/zhaoziquan/GWAS/software/picard/picard.jar MarkDuplicates -MAX_FILE_HANDLES_FOR_READ_ENDS_MAP 800 -REMOVE_DUPLICATES false -INPUT {bam_path}{name}.bam -OUTPUT {name}_dedup.bam -METRICS_FILE {name}_dedup.metrics -VALIDATION_STRINGENCY LENIENT\n')
+        mark_duplicates.write(f'java -jar {picard_sorfware_path} MarkDuplicates -MAX_FILE_HANDLES_FOR_READ_ENDS_MAP 800 -REMOVE_DUPLICATES false -INPUT {bam_path}{name}.bam -OUTPUT {name}_dedup.bam -METRICS_FILE {name}_dedup.metrics -VALIDATION_STRINGENCY LENIENT\n')
 
 
 os.system('mv ./3_mark_duplicates.sh ./3_mark_duplicates')

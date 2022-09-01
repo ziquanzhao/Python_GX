@@ -3,34 +3,29 @@
 # 编写时间�?022/7/1 10:04
 # 邮箱:2939818719@qq.com
 import os
-chongcexupath = input('请输入重测序文件的绝对路径，只输入到文件夹即可，例如：/mnt/data/project/unknown/reseq/bypy/cleandata/：')
-chongcexu_filename = os.listdir('/mnt/data/project/unknown/reseq/bypy/cleandata/')
-cankao_index = input('请输入参考基因组bwa索引的绝对路径，需要输入到文件级别，但是不要后缀，例如：/mnt/storage/zhaoziquan/GWAS/1_bwaindex/xsoindex：')
+
 if os.path.exists('2_bwaaglin_sort_bam'):
-    with open('2_bwaaglin_sort_bam.sh', 'a') as bwaaglin_sort_bam:
-        bwaaglin_sort_bam.write('#!/bin/bash\n')
-    for i in chongcexu_filename:
-        if "R1" in i:
-            num = i.replace('_R1.fq.gz', '')     #命名规则
-            with open('2_bwaaglin_sort_bam.sh', 'a') as file:
-                file.write(fr'bwa mem -t 100 -M -R "@RG\tID:{num}\tLB:{num}\tPL:illumina\tPU:{num}\tSM:{num}\" {cankao_index} {chongcexupath}{num}_R1.fq.gz {chongcexupath}{num}_R2.fq.gz > {num}.sam' + '\n')   #非双端测序修改此代码
-                file.write(fr'bwa mem -t 100 -M -R "@RG\tID:{num}\tLB:{num}\tPL:illumina\tPU:{num}\tSM:{num}\" {cankao_index} {chongcexupath}{num}_R1.fq.gz {chongcexupath}{num}_R2.fq.gz > {num}.sam' + '\n')
-                file.write(f'sed -i "2326d;2328d" {num}.sam\n')
-                file.write(f'java -jar /mnt/storage/zhaoziquan/GWAS/software/picard/picard.jar SortSam -TMP_DIR ./ -VALIDATION_STRINGENCY SILENT -INPUT ./{num}.sam -OUTPUT ./{num}_sort.bam -SORT_ORDER coordinate\n')
-                file.write(f'rm {num}.sam\n')
+    print('2_bwaaglin_sort_bam目录已存在，无需创建')
 else:
     os.mkdir('2_bwaaglin_sort_bam')
-    with open('2_bwaaglin_sort_bam.sh', 'a') as bwaaglin_sort_bam:
-        bwaaglin_sort_bam.write('#!/bin/bash\n')
+
+chongcexupath = input('请输入重测序文件的绝对路径，只输入到文件夹即可，例如：/mnt/data/project/unknown/reseq/bypy/cleandata/：')
+chongcexu_filename = os.listdir(chongcexupath)
+cankao_index = input('请输入参考基因组bwa索引的绝对路径，需要输入到文件级别，但是不要后缀，例如：/mnt/storage/zhaoziquan/GWAS/1_bwaindex/xsoindex：')
+bwa_software_path = input('请输入bwa软件的绝对路径，例如：/mnt/storage/zhaoziquan/GWAS/software/Bwa/：')
+picard_sorfware_path = input('请输入picard软件里picard.jar这个java包的绝对路径，例如：/mnt/storage/zhaoziquan/GWAS/software/picard/picard.jar：')
+
+with open('2_bwaaglin_sort_bam.sh', 'a') as bwaaglin_sort_bam:
+    bwaaglin_sort_bam.write('#!/bin/bash\n')
     for i in chongcexu_filename:
         if "R1" in i:
-            num = i.replace('_R1.fq.gz', '')  # 命名规则
-            with open('2_bwaaglin_sort_bam.sh', 'a') as file:
-                file.write(fr'bwa mem -t 100 -M -R "@RG\tID:{num}\tLB:{num}\tPL:illumina\tPU:{num}\tSM:{num}\" {cankao_index} {chongcexupath}{num}_R1.fq.gz {chongcexupath}{num}_R2.fq.gz > {num}.sam' + '\n')  # 非双端测序修改此代码
-                file.write(fr'bwa mem -t 100 -M -R "@RG\tID:{num}\tLB:{num}\tPL:illumina\tPU:{num}\tSM:{num}\" {cankao_index} {chongcexupath}{num}_R1.fq.gz {chongcexupath}{num}_R2.fq.gz > {num}.sam' + '\n')
-                file.write(f'sed -i "2326d;2328d" {num}.sam\n')
-                file.write(f'java -jar /mnt/storage/zhaoziquan/GWAS/software/picard/picard.jar SortSam -TMP_DIR ./ -VALIDATION_STRINGENCY SILENT -INPUT ./{num}.sam -OUTPUT ./{num}_sort.bam -SORT_ORDER coordinate\n')
-                file.write(f'rm {num}.sam\n')
+            num = i.replace('_R1.fq.gz', '')
+            bwaaglin_sort_bam.write(fr'{bwa_software_path}bwa mem -t 100 -M -R "@RG\tID:{num}\tLB:{num}\tPL:illumina\tPU:{num}\tSM:{num}\" {cankao_index} {chongcexupath}{num}_R1.fq.gz {chongcexupath}{num}_R2.fq.gz > {num}.sam' + '\n')   #非双端测序修改此代码
+            bwaaglin_sort_bam.write(fr'{bwa_software_path}bwa mem -t 100 -M -R "@RG\tID:{num}\tLB:{num}\tPL:illumina\tPU:{num}\tSM:{num}\" {cankao_index} {chongcexupath}{num}_R1.fq.gz {chongcexupath}{num}_R2.fq.gz > {num}.sam' + '\n')
+            bwaaglin_sort_bam.write(f'sed -i "2326d;2328d" {num}.sam\n')
+            bwaaglin_sort_bam.write(f'java -jar {picard_sorfware_path} SortSam -TMP_DIR ./ -VALIDATION_STRINGENCY SILENT -INPUT ./{num}.sam -OUTPUT ./{num}_sort.bam -SORT_ORDER coordinate\n')
+            bwaaglin_sort_bam.write(f'rm {num}.sam\n')
+
 
 os.system('mv ./2_bwaaglin_sort_bam.sh ./2_bwaaglin_sort_bam')
 print('\033[1;36m在当前目录下，有一个叫2_bwaaglin_sort_bam的文件夹，里面有一个shell脚本，执行它即可\033[m')
