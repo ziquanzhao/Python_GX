@@ -19,7 +19,7 @@ with open('ctgid.txt', 'r') as ctgid:
     ctg_list2 = ' '.join(ctg_list)
 with open('7_gvcf-vcf_ctg_zhb.sh', 'a') as ctg_zhb:
     ctg_zhb.write('#!/bin/bash\n')
-    ctg_zhb.write(f'java -jar /mnt/storage/zhaoziquan/GWAS/software/gatk-4.2.6.1/gatk-package-4.2.6.1-local.jar MergeVcfs {ctg_vcf_path}{ctg_list2} -O ctg.vcf')
+    ctg_zhb.write(f'java -jar /mnt/storage/zhaoziquan/GWAS/software/gatk-4.2.6.1/gatk-package-4.2.6.1-local.jar MergeVcfs {ctg_list2} -O ctg.vcf')
 
 os.system('mv ./7_gvcf-vcf_ctg_zhb.sh ./7_gvcf-vcf_ctg_zhb/')
 print('\033[1;36m在当前目录下，有一个叫7_gvcf-vcf_ctg_zhb的文件夹，里面有一个shell脚本，执行它即可\033[m')
