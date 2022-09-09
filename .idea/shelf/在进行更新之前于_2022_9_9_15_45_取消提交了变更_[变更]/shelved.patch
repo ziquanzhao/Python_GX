@@ -1,0 +1,468 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"e23a9593-2b23-4663-87ae-9b9aa4a767ad\" name=\"变更\" comment=\"Initial commit\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Python Script\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"HighlightingSettingsPerFile\">\r\n    <setting file=\"file://$PROJECT_DIR$/Python第三章程序结构-对象布尔值-if-pass/分支结构多种if函数.py\" root0=\"FORCE_HIGHLIGHTING\" />\r\n    <setting file=\"file://$PROJECT_DIR$/Python第四章Range，while，for，break，continue，else/循环结构.py\" root0=\"FORCE_HIGHLIGHTING\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProblemsViewState\">\r\n    <option name=\"selectedTabId\" value=\"CurrentFile\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"286jweUifvEzuFwwjb2XWAGXxmE\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <OptionsSetting value=\"false\" id=\"Update\" />\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,\r\n    &quot;last_opened_file_path&quot;: &quot;D:/Python&quot;,\r\n    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.editor&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"D:\\Python\\我的Python应用\\GUI\" />\r\n      <recent name=\"E:\\Python\\案例\" />\r\n      <recent name=\"E:\\Python\\Python第八章BUG\" />\r\n      <recent name=\"E:\\Python\\Python第一章\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Python.test\">\r\n    <configuration name=\"多个父窗口怎么做\" type=\"PythonConfigurationType\" factoryName=\"Python\" singleton=\"false\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"Python学习\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"E:\\Python\\venv\\Scripts\\python.exe\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/我的Python应用/GUI\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"false\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/我的Python应用/GUI/多个父窗口怎么做.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"11\" type=\"PythonConfigurationType\" factoryName=\"Python\" singleton=\"false\" nameIsGenerated=\"true\">\r\n      <module name=\"Python学习\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/我的Python应用\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/我的Python应用/11.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"111111111111\" type=\"PythonConfigurationType\" factoryName=\"Python\" singleton=\"false\" temporary=\"true\">\r\n      <module name=\"Python学习\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/我的Python应用/chrid\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/我的Python应用/chrid/11.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"1_bwaindex\" type=\"PythonConfigurationType\" factoryName=\"Python\" singleton=\"false\" nameIsGenerated=\"true\">\r\n      <module name=\"Python学习\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"E:\\Python\\venv\\Scripts\\python.exe\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/我的Python应用\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"false\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"D:\\Python\\我的Python应用\\1_bwaindex.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"6_HaplotypeCaller\" type=\"PythonConfigurationType\" factoryName=\"Python\" singleton=\"false\" nameIsGenerated=\"true\">\r\n      <module name=\"Python学习\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"D:\\APPData\\PyCharm\\venv\\Scripts\\python.exe\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/我的Python应用\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"false\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/我的Python应用/6_HaplotypeCaller.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"FastQC\" type=\"PythonConfigurationType\" factoryName=\"Python\" singleton=\"false\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"Python\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"E:\\Python\\venv\\Scripts\\python.exe\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/GWAS\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/GWAS/FastQC.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"GUI\" type=\"PythonConfigurationType\" factoryName=\"Python\" singleton=\"false\" nameIsGenerated=\"true\">\r\n      <module name=\"Python学习\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/我的Python应用\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"D:\\Python\\我的Python应用\\GUI\\GUI.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"Python下载视频-图片-文件\" type=\"PythonConfigurationType\" factoryName=\"Python\" singleton=\"false\" nameIsGenerated=\"true\">\r\n      <module name=\"Python学习\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"E:\\Python\\venv\\Scripts\\python.exe\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/我的Python应用\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"false\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/我的Python应用/Python下载视频-图片-文件.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"画布\" type=\"PythonConfigurationType\" factoryName=\"Python\" singleton=\"false\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"Python学习\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/我的Python应用/GUI\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/我的Python应用/GUI/画布.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"指定十进制数转换为其他进制的数\" type=\"PythonConfigurationType\" factoryName=\"Python\" singleton=\"false\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"Python学习\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"E:\\Python\\venv\\Scripts\\python.exe\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/案例\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"false\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/案例/指定十进制数转换为其他进制的数.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"视频下载器\" type=\"PythonConfigurationType\" factoryName=\"Python\" singleton=\"false\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"Python学习\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"E:\\Python\\venv\\Scripts\\python.exe\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/我的Python应用\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"false\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/我的Python应用/视频下载器.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"向文件输出’字符串\" type=\"PythonConfigurationType\" factoryName=\"Python\" singleton=\"false\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"Python学习\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"E:\\Python\\venv\\Scripts\\python.exe\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/案例/案例一：文件输出\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"false\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"E:\\Python\\案例\\向文件输出’字符串.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"需求分析\" type=\"PythonConfigurationType\" factoryName=\"Python\" singleton=\"false\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"Python学习\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"E:\\Python\\venv\\Scripts\\python.exe\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/学生信息管理系统\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"false\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/学生信息管理系统/需求分析.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"变量输出金陵十二杈\" type=\"PythonConfigurationType\" factoryName=\"Python\" singleton=\"false\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"Python学习\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"E:\\Python\\venv\\Scripts\\python.exe\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/案例\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"false\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/案例/变量输出金陵十二杈.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"模拟银行密码登录\" type=\"PythonConfigurationType\" factoryName=\"Python\" singleton=\"false\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"Python学习\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"E:\\Python\\venv\\Scripts\\python.exe\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/案例\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"false\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/案例/模拟银行密码登录.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"需求分析\" type=\"PythonConfigurationType\" factoryName=\"Python\" singleton=\"false\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"Python学习\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"E:\\Python\\venv\\Scripts\\python.exe\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/学生信息管理系统\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"false\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/学生信息管理系统/需求分析.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"随机数\" type=\"PythonConfigurationType\" factoryName=\"Python\" singleton=\"false\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"Python学习\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/我的Python应用/GUI\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"D:\\Python\\我的Python应用\\GUI\\随机数.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"多个父窗口怎么做\" type=\"PythonConfigurationType\" factoryName=\"Python\" singleton=\"false\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"Python学习\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/我的Python应用/GUI\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/我的Python应用/GUI/多个父窗口怎么做.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"模块的导入\" type=\"PythonConfigurationType\" factoryName=\"Python\" singleton=\"false\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"Python学习\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"E:\\Python\\venv\\Scripts\\python.exe\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/Python第十章-模块\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"false\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/Python第十章-模块/模块的导入.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"函数的返回值\" type=\"PythonConfigurationType\" factoryName=\"Python\" singleton=\"false\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"Python学习\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"E:\\Python\\venv\\Scripts\\python.exe\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/Python第七章函数\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"false\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/Python第七章函数/函数的返回值.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"特定字符串提取\" type=\"PythonConfigurationType\" factoryName=\"Python\" singleton=\"false\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"Python学习\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"E:\\Python\\venv\\Scripts\\python.exe\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/我的Python应用\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"false\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/我的Python应用/特定字符串提取.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"嵌套循环\" type=\"PythonConfigurationType\" factoryName=\"Python\" singleton=\"false\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"Python学习\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"E:\\Python\\venv\\Scripts\\python.exe\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/Python第四章Range，while，for，break，continue，else\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"false\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/Python第四章Range，while，for，break，continue，else/嵌套循环.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"算数运算规则\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"Python学习\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/Python第二章input和运算\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/Python第二章input和运算/算数运算规则.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"布尔运算\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"Python学习\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/Python第二章input和运算\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/Python第二章input和运算/布尔运算.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration default=\"true\" type=\"PythonConfigurationType\" factoryName=\"Python\" singleton=\"false\">\r\n      <module name=\"Python学习\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"E:\\Python\\venv\\Scripts\\python.exe\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"false\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"bwa_aglin\" type=\"PythonConfigurationType\" factoryName=\"Python\" singleton=\"false\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"Python学习\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/我的Python应用\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/我的Python应用/bwa_aglin.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"布局管理器grid (1)\" type=\"PythonConfigurationType\" factoryName=\"Python\" singleton=\"false\" nameIsGenerated=\"true\">\r\n      <module name=\"Python学习\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"E:\\Python\\venv\\Scripts\\python.exe\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/我的Python应用/GUI\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"false\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/我的Python应用/GUI/布局管理器grid.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"分支结构多种if函数\" type=\"PythonConfigurationType\" factoryName=\"Python\" nameIsGenerated=\"true\">\r\n      <module name=\"Python学习\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"E:\\Python\\venv\\Scripts\\python.exe\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/Python第三章程序结构-对象布尔值-if-pass\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"false\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/Python第三章程序结构-对象布尔值-if-pass/分支结构多种if函数.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"main\" type=\"PythonConfigurationType\" factoryName=\"Python\" nameIsGenerated=\"true\">\r\n      <module name=\"Python学习\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/main.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"pdbqt文件输出能量值\" type=\"PythonConfigurationType\" factoryName=\"Python\" singleton=\"false\" nameIsGenerated=\"true\">\r\n      <module name=\"Python学习\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/我的Python应用\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/我的Python应用/pdbqt文件输出能量值.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"test\" type=\"PythonConfigurationType\" factoryName=\"Python\" singleton=\"false\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"Python\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"E:\\Python\\venv\\Scripts\\python.exe\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/我的Python应用\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/我的Python应用/test.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <list>\r\n      <item itemvalue=\"Python.111111111111\" />\r\n      <item itemvalue=\"Python.11\" />\r\n      <item itemvalue=\"Python.1_bwaindex\" />\r\n      <item itemvalue=\"Python.6_HaplotypeCaller\" />\r\n      <item itemvalue=\"Python.FastQC\" />\r\n      <item itemvalue=\"Python.GUI\" />\r\n      <item itemvalue=\"Python.Python下载视频-图片-文件\" />\r\n      <item itemvalue=\"Python.多个父窗口怎么做\" />\r\n      <item itemvalue=\"Python.bwa_aglin\" />\r\n      <item itemvalue=\"Python.布局管理器grid (1)\" />\r\n      <item itemvalue=\"Python.分支结构多种if函数\" />\r\n      <item itemvalue=\"Python.main\" />\r\n      <item itemvalue=\"Python.pdbqt文件输出能量值\" />\r\n      <item itemvalue=\"Python.test\" />\r\n    </list>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Python.test\" />\r\n        <item itemvalue=\"Python.FastQC\" />\r\n        <item itemvalue=\"Python.111111111111\" />\r\n        <item itemvalue=\"Python.多个父窗口怎么做\" />\r\n        <item itemvalue=\"Python.bwa_aglin\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"应用程序级\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"默认任务\">\r\n      <changelist id=\"e23a9593-2b23-4663-87ae-9b9aa4a767ad\" name=\"变更\" comment=\"\" />\r\n      <created>1650544168325</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1650544168325</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Initial commit\">\r\n      <created>1661150323065</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1661150323065</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Initial commit\">\r\n      <created>1661150716601</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1661150716601</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Initial commit\">\r\n      <created>1661151986897</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1661151986897</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"Initial commit\">\r\n      <created>1661152014514</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1661152014514</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"5\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Initial commit\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Initial commit\" />\r\n  </component>\r\n  <component name=\"XDebuggerManager\">\r\n    <breakpoint-manager>\r\n      <breakpoints>\r\n        <line-breakpoint enabled=\"true\" suspend=\"THREAD\" type=\"python-line\">\r\n          <url>file://$PROJECT_DIR$/Python第二章input和运算/Python函数input.py</url>\r\n          <line>7</line>\r\n          <option name=\"timeStamp\" value=\"2\" />\r\n        </line-breakpoint>\r\n        <line-breakpoint enabled=\"true\" suspend=\"THREAD\" type=\"python-line\">\r\n          <url>file://$PROJECT_DIR$/Python第二章input和运算/布尔运算.py</url>\r\n          <line>5</line>\r\n          <option name=\"timeStamp\" value=\"3\" />\r\n        </line-breakpoint>\r\n        <line-breakpoint enabled=\"true\" suspend=\"THREAD\" type=\"python-line\">\r\n          <url>file://$PROJECT_DIR$/Python第六章字符串操作：查重，驻留，比价，切片，格式化，转码/判断字符串是否合法.py</url>\r\n          <line>4</line>\r\n          <option name=\"timeStamp\" value=\"7\" />\r\n        </line-breakpoint>\r\n        <line-breakpoint enabled=\"true\" suspend=\"THREAD\" type=\"python-line\">\r\n          <url>file://$PROJECT_DIR$/我的Python应用/GUI/GUI.py</url>\r\n          <line>171</line>\r\n          <option name=\"timeStamp\" value=\"8\" />\r\n        </line-breakpoint>\r\n        <line-breakpoint enabled=\"true\" suspend=\"THREAD\" type=\"python-line\">\r\n          <url>file://$PROJECT_DIR$/学生信息管理系统/需求分析.py</url>\r\n          <line>95</line>\r\n          <option name=\"timeStamp\" value=\"9\" />\r\n        </line-breakpoint>\r\n        <line-breakpoint enabled=\"true\" suspend=\"THREAD\" type=\"python-line\">\r\n          <url>file://$PROJECT_DIR$/我的Python应用/6_HaplotypeCaller.py</url>\r\n          <line>5</line>\r\n          <option name=\"timeStamp\" value=\"10\" />\r\n        </line-breakpoint>\r\n        <line-breakpoint enabled=\"true\" suspend=\"THREAD\" type=\"python-line\">\r\n          <url>file://$PROJECT_DIR$/我的Python应用/chrid/11.py</url>\r\n          <line>13</line>\r\n          <option name=\"timeStamp\" value=\"12\" />\r\n        </line-breakpoint>\r\n      </breakpoints>\r\n    </breakpoint-manager>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -4,7 +4,15 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="e23a9593-2b23-4663-87ae-9b9aa4a767ad" name="变更" comment="Initial commit" />
++    <list default="true" id="e23a9593-2b23-4663-87ae-9b9aa4a767ad" name="变更" comment="Initial commit">
++      <change afterPath="$PROJECT_DIR$/写好的python小程序/pdbqt文件输出能量值/pdbqt文件输出能量值.exe" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/写好的python小程序/pdbqt文件输出能量值/pdbqt文件输出能量值.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/写好的python小程序/媒体文件下载器/url.txt" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/写好的python小程序/媒体文件下载器/网页媒体下载器支持网站说明.pdf" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/写好的python小程序/媒体文件下载器/网页媒体类文件下载器.exe" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/写好的python小程序/媒体文件下载器/网页媒体类文件下载器.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -41,11 +49,12 @@
+   </component>
+   <component name="PropertiesComponent">{
+   &quot;keyToString&quot;: {
++    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+     &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+     &quot;last_opened_file_path&quot;: &quot;D:/Python&quot;,
+-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.editor&quot;
++    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
+   }
+ }</component>
+   <component name="RecentsManager">
+@@ -56,7 +65,7 @@
+       <recent name="E:\Python\Python第一章" />
+     </key>
+   </component>
+-  <component name="RunManager" selected="Python.test">
++  <component name="RunManager" selected="Python.1_bwaindex">
+     <configuration name="多个父窗口怎么做" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true" nameIsGenerated="true">
+       <module name="Python学习" />
+       <option name="INTERPRETER_OPTIONS" value="" />
+@@ -225,7 +234,7 @@
+       <option name="INPUT_FILE" value="" />
+       <method v="2" />
+     </configuration>
+-    <configuration name="画布" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true" nameIsGenerated="true">
++    <configuration name="随机数" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true" nameIsGenerated="true">
+       <module name="Python学习" />
+       <option name="INTERPRETER_OPTIONS" value="" />
+       <option name="PARENT_ENVS" value="true" />
+@@ -237,7 +246,7 @@
+       <option name="IS_MODULE_SDK" value="true" />
+       <option name="ADD_CONTENT_ROOTS" value="true" />
+       <option name="ADD_SOURCE_ROOTS" value="true" />
+-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/我的Python应用/GUI/画布.py" />
++      <option name="SCRIPT_NAME" value="D:\Python\我的Python应用\GUI\随机数.py" />
+       <option name="PARAMETERS" value="" />
+       <option name="SHOW_COMMAND_LINE" value="false" />
+       <option name="EMULATE_TERMINAL" value="false" />
+@@ -246,19 +255,19 @@
+       <option name="INPUT_FILE" value="" />
+       <method v="2" />
+     </configuration>
+-    <configuration name="指定十进制数转换为其他进制的数" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true" nameIsGenerated="true">
++    <configuration name="多个父窗口怎么做" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true" nameIsGenerated="true">
+       <module name="Python学习" />
+       <option name="INTERPRETER_OPTIONS" value="" />
+       <option name="PARENT_ENVS" value="true" />
+       <envs>
+         <env name="PYTHONUNBUFFERED" value="1" />
+       </envs>
+-      <option name="SDK_HOME" value="E:\Python\venv\Scripts\python.exe" />
+-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/案例" />
+-      <option name="IS_MODULE_SDK" value="false" />
++      <option name="SDK_HOME" value="" />
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/我的Python应用/GUI" />
++      <option name="IS_MODULE_SDK" value="true" />
+       <option name="ADD_CONTENT_ROOTS" value="true" />
+       <option name="ADD_SOURCE_ROOTS" value="true" />
+-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/案例/指定十进制数转换为其他进制的数.py" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/我的Python应用/GUI/多个父窗口怎么做.py" />
+       <option name="PARAMETERS" value="" />
+       <option name="SHOW_COMMAND_LINE" value="false" />
+       <option name="EMULATE_TERMINAL" value="false" />
+@@ -267,7 +276,7 @@
+       <option name="INPUT_FILE" value="" />
+       <method v="2" />
+     </configuration>
+-    <configuration name="视频下载器" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true" nameIsGenerated="true">
++    <configuration name="模块的导入" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true" nameIsGenerated="true">
+       <module name="Python学习" />
+       <option name="INTERPRETER_OPTIONS" value="" />
+       <option name="PARENT_ENVS" value="true" />
+@@ -275,11 +284,11 @@
+         <env name="PYTHONUNBUFFERED" value="1" />
+       </envs>
+       <option name="SDK_HOME" value="E:\Python\venv\Scripts\python.exe" />
+-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/我的Python应用" />
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python第十章-模块" />
+       <option name="IS_MODULE_SDK" value="false" />
+       <option name="ADD_CONTENT_ROOTS" value="true" />
+       <option name="ADD_SOURCE_ROOTS" value="true" />
+-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/我的Python应用/视频下载器.py" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python第十章-模块/模块的导入.py" />
+       <option name="PARAMETERS" value="" />
+       <option name="SHOW_COMMAND_LINE" value="false" />
+       <option name="EMULATE_TERMINAL" value="false" />
+@@ -288,7 +297,7 @@
+       <option name="INPUT_FILE" value="" />
+       <method v="2" />
+     </configuration>
+-    <configuration name="向文件输出’字符串" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true" nameIsGenerated="true">
++    <configuration name="函数的返回值" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true" nameIsGenerated="true">
+       <module name="Python学习" />
+       <option name="INTERPRETER_OPTIONS" value="" />
+       <option name="PARENT_ENVS" value="true" />
+@@ -296,11 +305,11 @@
+         <env name="PYTHONUNBUFFERED" value="1" />
+       </envs>
+       <option name="SDK_HOME" value="E:\Python\venv\Scripts\python.exe" />
+-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/案例/案例一：文件输出" />
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python第七章函数" />
+       <option name="IS_MODULE_SDK" value="false" />
+       <option name="ADD_CONTENT_ROOTS" value="true" />
+       <option name="ADD_SOURCE_ROOTS" value="true" />
+-      <option name="SCRIPT_NAME" value="E:\Python\案例\向文件输出’字符串.py" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python第七章函数/函数的返回值.py" />
+       <option name="PARAMETERS" value="" />
+       <option name="SHOW_COMMAND_LINE" value="false" />
+       <option name="EMULATE_TERMINAL" value="false" />
+@@ -309,7 +318,7 @@
+       <option name="INPUT_FILE" value="" />
+       <method v="2" />
+     </configuration>
+-    <configuration name="需求分析" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true" nameIsGenerated="true">
++    <configuration name="特定字符串提取" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true" nameIsGenerated="true">
+       <module name="Python学习" />
+       <option name="INTERPRETER_OPTIONS" value="" />
+       <option name="PARENT_ENVS" value="true" />
+@@ -317,11 +326,11 @@
+         <env name="PYTHONUNBUFFERED" value="1" />
+       </envs>
+       <option name="SDK_HOME" value="E:\Python\venv\Scripts\python.exe" />
+-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/学生信息管理系统" />
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/我的Python应用" />
+       <option name="IS_MODULE_SDK" value="false" />
+       <option name="ADD_CONTENT_ROOTS" value="true" />
+       <option name="ADD_SOURCE_ROOTS" value="true" />
+-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/学生信息管理系统/需求分析.py" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/我的Python应用/特定字符串提取.py" />
+       <option name="PARAMETERS" value="" />
+       <option name="SHOW_COMMAND_LINE" value="false" />
+       <option name="EMULATE_TERMINAL" value="false" />
+@@ -330,7 +339,7 @@
+       <option name="INPUT_FILE" value="" />
+       <method v="2" />
+     </configuration>
+-    <configuration name="变量输出金陵十二杈" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true" nameIsGenerated="true">
++    <configuration name="嵌套循环" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true" nameIsGenerated="true">
+       <module name="Python学习" />
+       <option name="INTERPRETER_OPTIONS" value="" />
+       <option name="PARENT_ENVS" value="true" />
+@@ -338,11 +347,11 @@
+         <env name="PYTHONUNBUFFERED" value="1" />
+       </envs>
+       <option name="SDK_HOME" value="E:\Python\venv\Scripts\python.exe" />
+-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/案例" />
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python第四章Range，while，for，break，continue，else" />
+       <option name="IS_MODULE_SDK" value="false" />
+       <option name="ADD_CONTENT_ROOTS" value="true" />
+       <option name="ADD_SOURCE_ROOTS" value="true" />
+-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/案例/变量输出金陵十二杈.py" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python第四章Range，while，for，break，continue，else/嵌套循环.py" />
+       <option name="PARAMETERS" value="" />
+       <option name="SHOW_COMMAND_LINE" value="false" />
+       <option name="EMULATE_TERMINAL" value="false" />
+@@ -351,19 +360,19 @@
+       <option name="INPUT_FILE" value="" />
+       <method v="2" />
+     </configuration>
+-    <configuration name="模拟银行密码登录" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true" nameIsGenerated="true">
++    <configuration name="算数运算规则" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+       <module name="Python学习" />
+       <option name="INTERPRETER_OPTIONS" value="" />
+       <option name="PARENT_ENVS" value="true" />
+       <envs>
+         <env name="PYTHONUNBUFFERED" value="1" />
+       </envs>
+-      <option name="SDK_HOME" value="E:\Python\venv\Scripts\python.exe" />
+-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/案例" />
+-      <option name="IS_MODULE_SDK" value="false" />
++      <option name="SDK_HOME" value="" />
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python第二章input和运算" />
++      <option name="IS_MODULE_SDK" value="true" />
+       <option name="ADD_CONTENT_ROOTS" value="true" />
+       <option name="ADD_SOURCE_ROOTS" value="true" />
+-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/案例/模拟银行密码登录.py" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python第二章input和运算/算数运算规则.py" />
+       <option name="PARAMETERS" value="" />
+       <option name="SHOW_COMMAND_LINE" value="false" />
+       <option name="EMULATE_TERMINAL" value="false" />
+@@ -372,19 +381,19 @@
+       <option name="INPUT_FILE" value="" />
+       <method v="2" />
+     </configuration>
+-    <configuration name="需求分析" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true" nameIsGenerated="true">
++    <configuration name="布尔运算" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+       <module name="Python学习" />
+       <option name="INTERPRETER_OPTIONS" value="" />
+       <option name="PARENT_ENVS" value="true" />
+       <envs>
+         <env name="PYTHONUNBUFFERED" value="1" />
+       </envs>
+-      <option name="SDK_HOME" value="E:\Python\venv\Scripts\python.exe" />
+-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/学生信息管理系统" />
+-      <option name="IS_MODULE_SDK" value="false" />
++      <option name="SDK_HOME" value="" />
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python第二章input和运算" />
++      <option name="IS_MODULE_SDK" value="true" />
+       <option name="ADD_CONTENT_ROOTS" value="true" />
+       <option name="ADD_SOURCE_ROOTS" value="true" />
+-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/学生信息管理系统/需求分析.py" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python第二章input和运算/布尔运算.py" />
+       <option name="PARAMETERS" value="" />
+       <option name="SHOW_COMMAND_LINE" value="false" />
+       <option name="EMULATE_TERMINAL" value="false" />
+@@ -393,7 +402,7 @@
+       <option name="INPUT_FILE" value="" />
+       <method v="2" />
+     </configuration>
+-    <configuration name="随机数" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true" nameIsGenerated="true">
++    <configuration name="画布" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true" nameIsGenerated="true">
+       <module name="Python学习" />
+       <option name="INTERPRETER_OPTIONS" value="" />
+       <option name="PARENT_ENVS" value="true" />
+@@ -405,7 +414,7 @@
+       <option name="IS_MODULE_SDK" value="true" />
+       <option name="ADD_CONTENT_ROOTS" value="true" />
+       <option name="ADD_SOURCE_ROOTS" value="true" />
+-      <option name="SCRIPT_NAME" value="D:\Python\我的Python应用\GUI\随机数.py" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/我的Python应用/GUI/画布.py" />
+       <option name="PARAMETERS" value="" />
+       <option name="SHOW_COMMAND_LINE" value="false" />
+       <option name="EMULATE_TERMINAL" value="false" />
+@@ -414,19 +423,19 @@
+       <option name="INPUT_FILE" value="" />
+       <method v="2" />
+     </configuration>
+-    <configuration name="多个父窗口怎么做" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true" nameIsGenerated="true">
++    <configuration name="指定十进制数转换为其他进制的数" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true" nameIsGenerated="true">
+       <module name="Python学习" />
+       <option name="INTERPRETER_OPTIONS" value="" />
+       <option name="PARENT_ENVS" value="true" />
+       <envs>
+         <env name="PYTHONUNBUFFERED" value="1" />
+       </envs>
+-      <option name="SDK_HOME" value="" />
+-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/我的Python应用/GUI" />
+-      <option name="IS_MODULE_SDK" value="true" />
++      <option name="SDK_HOME" value="E:\Python\venv\Scripts\python.exe" />
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/案例" />
++      <option name="IS_MODULE_SDK" value="false" />
+       <option name="ADD_CONTENT_ROOTS" value="true" />
+       <option name="ADD_SOURCE_ROOTS" value="true" />
+-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/我的Python应用/GUI/多个父窗口怎么做.py" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/案例/指定十进制数转换为其他进制的数.py" />
+       <option name="PARAMETERS" value="" />
+       <option name="SHOW_COMMAND_LINE" value="false" />
+       <option name="EMULATE_TERMINAL" value="false" />
+@@ -435,7 +444,7 @@
+       <option name="INPUT_FILE" value="" />
+       <method v="2" />
+     </configuration>
+-    <configuration name="模块的导入" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true" nameIsGenerated="true">
++    <configuration name="视频下载器" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true" nameIsGenerated="true">
+       <module name="Python学习" />
+       <option name="INTERPRETER_OPTIONS" value="" />
+       <option name="PARENT_ENVS" value="true" />
+@@ -443,11 +452,11 @@
+         <env name="PYTHONUNBUFFERED" value="1" />
+       </envs>
+       <option name="SDK_HOME" value="E:\Python\venv\Scripts\python.exe" />
+-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python第十章-模块" />
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/我的Python应用" />
+       <option name="IS_MODULE_SDK" value="false" />
+       <option name="ADD_CONTENT_ROOTS" value="true" />
+       <option name="ADD_SOURCE_ROOTS" value="true" />
+-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python第十章-模块/模块的导入.py" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/我的Python应用/视频下载器.py" />
+       <option name="PARAMETERS" value="" />
+       <option name="SHOW_COMMAND_LINE" value="false" />
+       <option name="EMULATE_TERMINAL" value="false" />
+@@ -456,7 +465,7 @@
+       <option name="INPUT_FILE" value="" />
+       <method v="2" />
+     </configuration>
+-    <configuration name="函数的返回值" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true" nameIsGenerated="true">
++    <configuration name="向文件输出’字符串" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true" nameIsGenerated="true">
+       <module name="Python学习" />
+       <option name="INTERPRETER_OPTIONS" value="" />
+       <option name="PARENT_ENVS" value="true" />
+@@ -464,11 +473,11 @@
+         <env name="PYTHONUNBUFFERED" value="1" />
+       </envs>
+       <option name="SDK_HOME" value="E:\Python\venv\Scripts\python.exe" />
+-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python第七章函数" />
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/案例/案例一：文件输出" />
+       <option name="IS_MODULE_SDK" value="false" />
+       <option name="ADD_CONTENT_ROOTS" value="true" />
+       <option name="ADD_SOURCE_ROOTS" value="true" />
+-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python第七章函数/函数的返回值.py" />
++      <option name="SCRIPT_NAME" value="E:\Python\案例\向文件输出’字符串.py" />
+       <option name="PARAMETERS" value="" />
+       <option name="SHOW_COMMAND_LINE" value="false" />
+       <option name="EMULATE_TERMINAL" value="false" />
+@@ -477,7 +486,7 @@
+       <option name="INPUT_FILE" value="" />
+       <method v="2" />
+     </configuration>
+-    <configuration name="特定字符串提取" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true" nameIsGenerated="true">
++    <configuration name="需求分析" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true" nameIsGenerated="true">
+       <module name="Python学习" />
+       <option name="INTERPRETER_OPTIONS" value="" />
+       <option name="PARENT_ENVS" value="true" />
+@@ -485,11 +494,11 @@
+         <env name="PYTHONUNBUFFERED" value="1" />
+       </envs>
+       <option name="SDK_HOME" value="E:\Python\venv\Scripts\python.exe" />
+-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/我的Python应用" />
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/学生信息管理系统" />
+       <option name="IS_MODULE_SDK" value="false" />
+       <option name="ADD_CONTENT_ROOTS" value="true" />
+       <option name="ADD_SOURCE_ROOTS" value="true" />
+-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/我的Python应用/特定字符串提取.py" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/学生信息管理系统/需求分析.py" />
+       <option name="PARAMETERS" value="" />
+       <option name="SHOW_COMMAND_LINE" value="false" />
+       <option name="EMULATE_TERMINAL" value="false" />
+@@ -498,7 +507,7 @@
+       <option name="INPUT_FILE" value="" />
+       <method v="2" />
+     </configuration>
+-    <configuration name="嵌套循环" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true" nameIsGenerated="true">
++    <configuration name="变量输出金陵十二杈" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true" nameIsGenerated="true">
+       <module name="Python学习" />
+       <option name="INTERPRETER_OPTIONS" value="" />
+       <option name="PARENT_ENVS" value="true" />
+@@ -506,11 +515,11 @@
+         <env name="PYTHONUNBUFFERED" value="1" />
+       </envs>
+       <option name="SDK_HOME" value="E:\Python\venv\Scripts\python.exe" />
+-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python第四章Range，while，for，break，continue，else" />
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/案例" />
+       <option name="IS_MODULE_SDK" value="false" />
+       <option name="ADD_CONTENT_ROOTS" value="true" />
+       <option name="ADD_SOURCE_ROOTS" value="true" />
+-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python第四章Range，while，for，break，continue，else/嵌套循环.py" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/案例/变量输出金陵十二杈.py" />
+       <option name="PARAMETERS" value="" />
+       <option name="SHOW_COMMAND_LINE" value="false" />
+       <option name="EMULATE_TERMINAL" value="false" />
+@@ -519,19 +528,19 @@
+       <option name="INPUT_FILE" value="" />
+       <method v="2" />
+     </configuration>
+-    <configuration name="算数运算规则" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
++    <configuration name="模拟银行密码登录" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true" nameIsGenerated="true">
+       <module name="Python学习" />
+       <option name="INTERPRETER_OPTIONS" value="" />
+       <option name="PARENT_ENVS" value="true" />
+       <envs>
+         <env name="PYTHONUNBUFFERED" value="1" />
+       </envs>
+-      <option name="SDK_HOME" value="" />
+-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python第二章input和运算" />
+-      <option name="IS_MODULE_SDK" value="true" />
++      <option name="SDK_HOME" value="E:\Python\venv\Scripts\python.exe" />
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/案例" />
++      <option name="IS_MODULE_SDK" value="false" />
+       <option name="ADD_CONTENT_ROOTS" value="true" />
+       <option name="ADD_SOURCE_ROOTS" value="true" />
+-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python第二章input和运算/算数运算规则.py" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/案例/模拟银行密码登录.py" />
+       <option name="PARAMETERS" value="" />
+       <option name="SHOW_COMMAND_LINE" value="false" />
+       <option name="EMULATE_TERMINAL" value="false" />
+@@ -540,19 +549,19 @@
+       <option name="INPUT_FILE" value="" />
+       <method v="2" />
+     </configuration>
+-    <configuration name="布尔运算" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
++    <configuration name="需求分析" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true" nameIsGenerated="true">
+       <module name="Python学习" />
+       <option name="INTERPRETER_OPTIONS" value="" />
+       <option name="PARENT_ENVS" value="true" />
+       <envs>
+         <env name="PYTHONUNBUFFERED" value="1" />
+       </envs>
+-      <option name="SDK_HOME" value="" />
+-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python第二章input和运算" />
+-      <option name="IS_MODULE_SDK" value="true" />
++      <option name="SDK_HOME" value="E:\Python\venv\Scripts\python.exe" />
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/学生信息管理系统" />
++      <option name="IS_MODULE_SDK" value="false" />
+       <option name="ADD_CONTENT_ROOTS" value="true" />
+       <option name="ADD_SOURCE_ROOTS" value="true" />
+-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python第二章input和运算/布尔运算.py" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/学生信息管理系统/需求分析.py" />
+       <option name="PARAMETERS" value="" />
+       <option name="SHOW_COMMAND_LINE" value="false" />
+       <option name="EMULATE_TERMINAL" value="false" />
+@@ -709,19 +718,19 @@
+       <method v="2" />
+     </configuration>
+     <list>
+-      <item itemvalue="Python.111111111111" />
+       <item itemvalue="Python.11" />
+       <item itemvalue="Python.1_bwaindex" />
+       <item itemvalue="Python.6_HaplotypeCaller" />
+-      <item itemvalue="Python.FastQC" />
+       <item itemvalue="Python.GUI" />
+       <item itemvalue="Python.Python下载视频-图片-文件" />
+-      <item itemvalue="Python.多个父窗口怎么做" />
+-      <item itemvalue="Python.bwa_aglin" />
+       <item itemvalue="Python.布局管理器grid (1)" />
+       <item itemvalue="Python.分支结构多种if函数" />
+       <item itemvalue="Python.main" />
+       <item itemvalue="Python.pdbqt文件输出能量值" />
++      <item itemvalue="Python.111111111111" />
++      <item itemvalue="Python.FastQC" />
++      <item itemvalue="Python.多个父窗口怎么做" />
++      <item itemvalue="Python.bwa_aglin" />
+       <item itemvalue="Python.test" />
+     </list>
+     <recent_temporary>
+@@ -771,7 +780,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1661152014514</updated>
+     </task>
+-    <option name="localTasksCounter" value="5" />
++    <task id="LOCAL-00005" summary="Initial commit">
++      <created>1661693530518</created>
++      <option name="number" value="00005" />
++      <option name="presentableId" value="LOCAL-00005" />
++      <option name="project" value="LOCAL" />
++      <updated>1661693530518</updated>
++    </task>
++    <option name="localTasksCounter" value="6" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -786,6 +802,7 @@
+     </option>
+   </component>
+   <component name="VcsManagerConfiguration">
++    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+     <MESSAGE value="Initial commit" />
+     <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+   </component>

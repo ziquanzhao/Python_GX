@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e23a9593-2b23-4663-87ae-9b9aa4a767ad" name="变更" comment="Initial commit" />
+    <list default="true" id="e23a9593-2b23-4663-87ae-9b9aa4a767ad" name="变更" comment="Merge remote-tracking branch 'origin/master'">
+      <change afterPath="$PROJECT_DIR$/写好的python小程序/pdbqt文件输出能量值/pdbqt文件输出能量值.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/写好的python小程序/pdbqt文件输出能量值/pdbqt文件输出能量值.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/写好的python小程序/媒体文件下载器/url.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/写好的python小程序/媒体文件下载器/网页媒体下载器支持网站说明.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/写好的python小程序/媒体文件下载器/网页媒体类文件下载器.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/写好的python小程序/媒体文件下载器/网页媒体类文件下载器.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GWAS/10_Hard_Filtration.py" beforeDir="false" afterPath="$PROJECT_DIR$/GWAS/10_Hard_Filtration.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +29,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="zzq &lt;2939818719@qq.com&gt;" />
+      </list>
+    </option>
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -41,35 +58,37 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Python&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.editor&quot;
+    &quot;last_opened_file_path&quot;: &quot;D:/Python/.idea&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Python\GWAS" />
       <recent name="D:\Python\我的Python应用\GUI" />
       <recent name="E:\Python\案例" />
       <recent name="E:\Python\Python第八章BUG" />
       <recent name="E:\Python\Python第一章" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test">
-    <configuration name="多个父窗口怎么做" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true" nameIsGenerated="true">
-      <module name="Python学习" />
+  <component name="RunManager" selected="Python.字符串匹配提取输出">
+    <configuration name="字符串匹配提取输出" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true" nameIsGenerated="true">
+      <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="E:\Python\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/我的Python应用/GUI" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/我的Python应用" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/我的Python应用/GUI/多个父窗口怎么做.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/我的Python应用/字符串匹配提取输出.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -79,15 +98,15 @@
       <method v="2" />
     </configuration>
     <configuration name="11" type="PythonConfigurationType" factoryName="Python" singleton="false" nameIsGenerated="true">
-      <module name="Python学习" />
+      <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="D:\APPData\PyCharm\venv\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/我的Python应用" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/我的Python应用/11.py" />
@@ -100,7 +119,7 @@
       <method v="2" />
     </configuration>
     <configuration name="111111111111" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true">
-      <module name="Python学习" />
+      <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -121,18 +140,18 @@
       <method v="2" />
     </configuration>
     <configuration name="1_bwaindex" type="PythonConfigurationType" factoryName="Python" singleton="false" nameIsGenerated="true">
-      <module name="Python学习" />
+      <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="E:\Python\venv\Scripts\python.exe" />
+      <option name="SDK_HOME" value="D:\APPData\PyCharm\venv\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/我的Python应用" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\Python\我的Python应用\1_bwaindex.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/我的Python应用/1_bwaindex.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -162,7 +181,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="FastQC" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true" nameIsGenerated="true">
+    <configuration name="7_gvcf-vcf_ctg" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -174,7 +193,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GWAS/FastQC.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GWAS/7_gvcf-vcf_ctg.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -184,18 +203,18 @@
       <method v="2" />
     </configuration>
     <configuration name="GUI" type="PythonConfigurationType" factoryName="Python" singleton="false" nameIsGenerated="true">
-      <module name="Python学习" />
+      <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="D:\APPData\PyCharm\venv\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/我的Python应用" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\Python\我的Python应用\GUI\GUI.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/我的Python应用/GUI/GUI.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -582,27 +601,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="bwa_aglin" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true" nameIsGenerated="true">
-      <module name="Python学习" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/我的Python应用" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/我的Python应用/bwa_aglin.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="布局管理器grid (1)" type="PythonConfigurationType" factoryName="Python" singleton="false" nameIsGenerated="true">
       <module name="Python学习" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -646,15 +644,15 @@
       <method v="2" />
     </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="Python学习" />
+      <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="D:\APPData\PyCharm\venv\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
@@ -667,18 +665,39 @@
       <method v="2" />
     </configuration>
     <configuration name="pdbqt文件输出能量值" type="PythonConfigurationType" factoryName="Python" singleton="false" nameIsGenerated="true">
-      <module name="Python学习" />
+      <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="D:\APPData\PyCharm\venv\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/我的Python应用" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/我的Python应用/pdbqt文件输出能量值.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="rename" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true" nameIsGenerated="true">
+      <module name="Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="E:\Python\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GWAS" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GWAS/rename.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -709,28 +728,28 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.111111111111" />
       <item itemvalue="Python.11" />
       <item itemvalue="Python.1_bwaindex" />
       <item itemvalue="Python.6_HaplotypeCaller" />
-      <item itemvalue="Python.FastQC" />
       <item itemvalue="Python.GUI" />
       <item itemvalue="Python.Python下载视频-图片-文件" />
-      <item itemvalue="Python.多个父窗口怎么做" />
-      <item itemvalue="Python.bwa_aglin" />
       <item itemvalue="Python.布局管理器grid (1)" />
       <item itemvalue="Python.分支结构多种if函数" />
       <item itemvalue="Python.main" />
       <item itemvalue="Python.pdbqt文件输出能量值" />
+      <item itemvalue="Python.7_gvcf-vcf_ctg" />
+      <item itemvalue="Python.字符串匹配提取输出" />
+      <item itemvalue="Python.rename" />
       <item itemvalue="Python.test" />
+      <item itemvalue="Python.111111111111" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.字符串匹配提取输出" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.FastQC" />
+        <item itemvalue="Python.7_gvcf-vcf_ctg" />
+        <item itemvalue="Python.rename" />
         <item itemvalue="Python.111111111111" />
-        <item itemvalue="Python.多个父窗口怎么做" />
-        <item itemvalue="Python.bwa_aglin" />
       </list>
     </recent_temporary>
   </component>
@@ -744,34 +763,111 @@
       <updated>1650544168325</updated>
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
-      <created>1661150323065</created>
+      <created>1660797174449</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1661150323065</updated>
+      <updated>1660797174449</updated>
     </task>
-    <task id="LOCAL-00002" summary="Initial commit">
-      <created>1661150716601</created>
+    <task id="LOCAL-00002" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;GWAS/1_bwaindex.py">
+      <created>1660797235131</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1661150716601</updated>
+      <updated>1660797235131</updated>
     </task>
-    <task id="LOCAL-00003" summary="Initial commit">
-      <created>1661151986897</created>
+    <task id="LOCAL-00003" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;GWAS/1_bwaindex.py">
+      <created>1661262363932</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1661151986897</updated>
+      <updated>1661262363932</updated>
     </task>
-    <task id="LOCAL-00004" summary="Initial commit">
-      <created>1661152014514</created>
+    <task id="LOCAL-00004" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;GWAS/1_bwaindex.py">
+      <created>1661262396359</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1661152014514</updated>
+      <updated>1661262396359</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;GWAS/1_bwaindex.py">
+      <created>1661667481822</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1661667481822</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Merge remote-tracking branch 'origin/master'">
+      <created>1661784163312</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1661784163312</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Merge remote-tracking branch 'origin/master'">
+      <created>1661784849031</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1661784849031</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Merge remote-tracking branch 'origin/master'">
+      <created>1661820985991</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1661820985991</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Merge remote-tracking branch 'origin/master'">
+      <created>1661840680973</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1661840680973</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Merge remote-tracking branch 'origin/master'">
+      <created>1661854471240</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1661854471240</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Merge remote-tracking branch 'origin/master'">
+      <created>1661917180009</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1661917180009</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Merge remote-tracking branch 'origin/master'">
+      <created>1661946650808</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1661946650808</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Merge remote-tracking branch 'origin/master'">
+      <created>1662014697185</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1662014697185</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Merge remote-tracking branch 'origin/master'">
+      <created>1662359551468</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1662359551468</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Merge remote-tracking branch 'origin/master'">
+      <created>1662368357729</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1662368357729</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -786,8 +882,11 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;GWAS/1_bwaindex.py" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
