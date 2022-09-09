@@ -13,7 +13,7 @@ os.startfile('C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe'
 
 
 #返回当前工作目录
-print(os.getcwd())  #os.getcwd()返回当前工作目录
+print(os.getwd())  #os.getwd()返回当前工作目录
 '''
 
 #返回指定路径下所有文件和目录信息
