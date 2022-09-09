@@ -1,4 +1,4 @@
-#coding=utf-8
+# coding=utf-8
 # 编写人：赵子�?
 # 编写时间�?022/7/1 10:04
 # 邮箱:2939818719@qq.com
@@ -21,8 +21,8 @@ with open('2_bwaaglin_sort_bam.sh', 'a') as bwaaglin_sort_bam:
         if "R1" in i:
             num = i.replace('_R1.fq.gz', '')
             bwaaglin_sort_bam.write(fr'{bwa_software_path}bwa mem -t 100 -M -R "@RG\tID:{num}\tLB:{num}\tPL:illumina\tPU:{num}\tSM:{num}\" {cankao_index} {chongcexupath}{num}_R1.fq.gz {chongcexupath}{num}_R2.fq.gz > {num}.sam' + '\n')   #非双端测序修改此代码
-            bwaaglin_sort_bam.write(fr'{bwa_software_path}bwa mem -t 100 -M -R "@RG\tID:{num}\tLB:{num}\tPL:illumina\tPU:{num}\tSM:{num}\" {cankao_index} {chongcexupath}{num}_R1.fq.gz {chongcexupath}{num}_R2.fq.gz > {num}.sam' + '\n')
-            bwaaglin_sort_bam.write(f'sed -i "2326d;2328d" {num}.sam\n')
+            #bwaaglin_sort_bam.write(fr'{bwa_software_path}bwa mem -t 100 -M -R "@RG\tID:{num}\tLB:{num}\tPL:illumina\tPU:{num}\tSM:{num}\" {cankao_index} {chongcexupath}{num}_R1.fq.gz {chongcexupath}{num}_R2.fq.gz > {num}.sam' + '\n')
+            #bwaaglin_sort_bam.write(f'sed -i "2326d;2328d" {num}.sam\n')
             bwaaglin_sort_bam.write(f'java -jar {picard_sorfware_path} SortSam -TMP_DIR ./ -VALIDATION_STRINGENCY SILENT -INPUT ./{num}.sam -OUTPUT ./{num}_sort.bam -SORT_ORDER coordinate\n')
             bwaaglin_sort_bam.write(f'rm {num}.sam\n')
 

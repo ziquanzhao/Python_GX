@@ -5,5 +5,6 @@
 
 import os
 import re
-a = range(1, 5, 1)
-print(a[0],type(a[0]))
+a = 'aa1234vo\nb41'
+b = re.sub('vo\nb', '', a)
+print(b)

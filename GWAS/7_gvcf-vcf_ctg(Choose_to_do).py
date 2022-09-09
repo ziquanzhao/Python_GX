@@ -24,8 +24,8 @@ with open('ctgid.txt', 'r') as ctgid:
             sample_list = []
             for sample in filename:
                 if '.idx' not in sample and 'chr10' in sample:
-                    sample = re.sub('_sort_dedup_chr\d*.gvcf', '', sample)
-                    sample_list.append(f'-V {all_ctg_gvcf}{sample}_sort_dedup_{ctg}.gvcf')
+                    sample = re.sub('_sort_dedup_chr\d*.g.vcf', '', sample)
+                    sample_list.append(f'-V {all_ctg_gvcf}{sample}_sort_dedup_{ctg}.g.vcf')
             sample_list2 = ' '.join(sample_list)
             ctg_vcf.write(f'java -jar /mnt/storage/zhaoziquan/GWAS/software/gatk-4.2.6.1/gatk-package-4.2.6.1-local.jar CombineGVCFs -R {ref_path} {sample_list2} -O all_{ctg}.g.vcf\n')
             ctg_vcf.write(f'java -jar /mnt/storage/zhaoziquan/GWAS/software/gatk-4.2.6.1/gatk-package-4.2.6.1-local.jar GenotypeGVCFs -R {ref_path} -V all_{ctg}.g.vcf -O {ctg}.vcf\n')

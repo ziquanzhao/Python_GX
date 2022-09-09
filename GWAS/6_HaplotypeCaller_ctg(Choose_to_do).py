@@ -3,6 +3,7 @@
 # 编写时间：2022/7/5 17:00
 # 邮箱:2939818719@qq.com
 import os
+import re
 
 if os.path.exists('6_HaplotypeCaller_ctg'):
     print('已存在6_HaplotypeCaller_ctg目录，无需创建')
@@ -16,6 +17,7 @@ else:
 
 bam_dedup_path = input('请输入所有bam文件所在路径，例如：/mnt/storage/zhaoziquan/GWAS/3_mark_duplicates/：')
 ref_path = input('请输入参考基因组所在路径，例如：/mnt/storage/zhaoziquan/GWAS/1_bwaindex/xso-gene.fa：')
+GATK_sorfware_path = input('请输入GATK软件中gatk-package-4.2.6.1-local.jar这个java包的绝对路径，例如：/mnt/storage/zhaoziquan/GWAS/software/gatk-4.2.6.1/gatk-package-4.2.6.1-local.jar：')
 
 bam_name = os.listdir(bam_dedup_path)
 
@@ -23,15 +25,14 @@ with open('ctgid.txt', 'r') as ctgid:
     ctg_name = ctgid.readlines()
 
 for i in bam_name:
-    if i.find('bai') == -1 and i.find('metrics') == -1:
-        bam_new_name = i.replace('\n', '')
-        bam_new_name= bam_new_name.replace('_sort_dedup.bam', '')
+    if 'bai' not in i and 'metrics' not in i:
+        bam_new_name= re.sub('_sort_dedup.bam\n', '', i)
         with open(f'6_HC_{bam_new_name}.sh', 'a') as hc_ctg:
             hc_ctg.write('#!/bin/bash\n')
             for ctg in ctg_name:
                 ctg = ctg.replace('\n', '')
                 ctg = ctg.replace('>', '')
-                hc_ctg.write(f'java -jar /mnt/storage/zhaoziquan/GWAS/software/gatk-4.2.6.1/gatk-package-4.2.6.1-local.jar HaplotypeCaller -R {ref_path} -I {bam_dedup_path}{bam_new_name}_sort_dedup.bam -ERC GVCF -L {ctg} -O {bam_new_name}_sort_dedup_{ctg}.gvcf\n')
+                hc_ctg.write(f'java -jar {GATK_sorfware_path} HaplotypeCaller -R {ref_path} -I {bam_dedup_path}{bam_new_name}_sort_dedup.bam -ERC GVCF -L {ctg} -O {bam_new_name}_sort_dedup_{ctg}.g.vcf\n')
 
 
 os.system('mv ./6_HC_*.sh ./6_HaplotypeCaller_ctg_sh')

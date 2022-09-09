@@ -1,8 +1,9 @@
-#coding = utf-8
+# coding = utf-8
 # 编写人：赵子权
 # 编写时间：2022/7/4 9:42
 # 邮箱:2939818719@qq.com
 import os
+import re
 
 if os.path.exists('5_BQSR_bam'):
     print('5_BQSR_bam目录已存在，无需创建')
@@ -19,8 +20,8 @@ bam_filename = os.listdir(bam_dedup_path)
 with open('5_BQSR_bam.sh', 'a') as BQSR_bam:
     BQSR_bam.write('#!/bin/bash\n')
     for i in bam_filename:
-        if i.find('bai') == '-1' and i.find('metrics') == '-1':
-            name = i.replace('.bam', '')
+        if 'bai' not in i and 'metrics' not in i:
+            name = re.sub('.bam\n', '', i)
             BQSR_bam.write(f'java -jar {GATK_sorfware_path} -R {ref_path} -I {bam_dedup_path}{name}.bam -knownSites {knownsites_path} -O {name}_recal.table\n')
             BQSR_bam.write(f'java -jar {GATK_sorfware_path} PrintReads -R {ref_path} -I {bam_dedup_path}{name}.bam -BQSR ./{name}_recal.table -O {name}_recal.bam\n')
 
