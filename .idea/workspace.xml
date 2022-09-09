@@ -5,16 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e23a9593-2b23-4663-87ae-9b9aa4a767ad" name="变更" comment="Merge remote-tracking branch 'origin/master'">
-      <change afterPath="$PROJECT_DIR$/写好的python小程序/pdbqt文件输出能量值/pdbqt文件输出能量值.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/写好的python小程序/pdbqt文件输出能量值/pdbqt文件输出能量值.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/写好的python小程序/媒体文件下载器/url.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/写好的python小程序/媒体文件下载器/网页媒体下载器支持网站说明.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/写好的python小程序/媒体文件下载器/网页媒体类文件下载器.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/写好的python小程序/媒体文件下载器/网页媒体类文件下载器.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GWAS/10_Hard_Filtration.py" beforeDir="false" afterPath="$PROJECT_DIR$/GWAS/10_Hard_Filtration.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,10 +28,6 @@
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Python第三章程序结构-对象布尔值-if-pass/分支结构多种if函数.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Python第四章Range，while，for，break，continue，else/循环结构.py" root0="FORCE_HIGHLIGHTING" />
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -49,7 +36,6 @@
   </component>
   <component name="ProjectId" id="286jweUifvEzuFwwjb2XWAGXxmE" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -867,7 +853,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662368357729</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Merge remote-tracking branch 'origin/master'">
+      <created>1662714599461</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1662714599461</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
