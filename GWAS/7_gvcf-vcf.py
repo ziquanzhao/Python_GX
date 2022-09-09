@@ -29,8 +29,8 @@ for x in range(1,16,1):
         V = file.read().replace('\n', '')
         with open(f'7_gvcf-vcf_{x}.sh', 'a') as file2:
             file2.write('#!/bin/bash\n')
-            file2.write(f'java -jar /mnt/storage/zhaoziquan/GWAS/software/gatk-4.2.6.1/gatk-package-4.2.6.1-local.jar CombineGVCFs -R {ref_path} {V} -O all_chr1.g.vcf\n')
-            file2.write(f'java -jar /mnt/storage/zhaoziquan/GWAS/software/gatk-4.2.6.1/gatk-package-4.2.6.1-local.jar GenotypeGVCFs -R {ref_path} -V all_chr1.g.vcf -O chr1.vcf\n')
+            file2.write(f'java -jar /mnt/storage/zhaoziquan/GWAS/software/gatk-4.2.6.1/gatk-package-4.2.6.1-local.jar CombineGVCFs -R {ref_path} {V} -O all_chr{x}.g.vcf\n')
+            file2.write(f'java -jar /mnt/storage/zhaoziquan/GWAS/software/gatk-4.2.6.1/gatk-package-4.2.6.1-local.jar GenotypeGVCFs -R {ref_path} -V all_chr{x}.g.vcf -O chr{x}.vcf\n')
 
 os.system('rm ./gvcflist.txt')
 os.system('mv ./7_gvcf-vcf_*.sh ./7_gvcf-vcf')
