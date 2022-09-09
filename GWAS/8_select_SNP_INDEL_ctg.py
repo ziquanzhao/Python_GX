@@ -9,7 +9,7 @@ else:
     os.mkdir('8_select_SNP_INDEL')
 
 ref_path = input('请输入参考基因组所在路径，例如：/mnt/storage/zhaoziquan/GWAS/1_bwaindex/xso-gene.fa：')
-ctgvcf_filepath = input('请输入ctg_zhb文件的路径，例如：/mnt/storage/zhaoziquan/GWAS/7_gvcf-vcf_ctg_zhb/ctg.vcf')
+ctgvcf_filepath = input('请输入ctg_zhb文件的路径，例如：/mnt/storage/zhaoziquan/GWAS/7_gvcf-vcf_ctg_zhb/ctg.vcf:')
 GATK_sorfware_path = input('请输入GATK软件中gatk-package-4.2.6.1-local.jar这个java包的绝对路径，例如：/mnt/storage/zhaoziquan/GWAS/software/gatk-4.2.6.1/gatk-package-4.2.6.1-local.jar：')
 
 with open('8_select_SNP_ctg.sh', 'a') as select_snp:
