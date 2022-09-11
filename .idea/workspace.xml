@@ -5,27 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e23a9593-2b23-4663-87ae-9b9aa4a767ad" name="变更" comment="Merge remote-tracking branch 'origin/master'">
+      <change afterPath="$PROJECT_DIR$/GWAS/record_snp_indel.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GWAS/10_Hard_Filtration.py" beforeDir="false" afterPath="$PROJECT_DIR$/GWAS/10_Hard_Filtration.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GWAS/11_hebing_snp_indel.py" beforeDir="false" afterPath="$PROJECT_DIR$/GWAS/11_hebing_snp_indel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GWAS/1_bwaindex.py" beforeDir="false" afterPath="$PROJECT_DIR$/GWAS/1_bwaindex.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GWAS/2_sam_sort_bam.py" beforeDir="false" afterPath="$PROJECT_DIR$/GWAS/2_sam_sort_bam.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GWAS/4_bamindex.py" beforeDir="false" afterPath="$PROJECT_DIR$/GWAS/4_bamindex.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GWAS/5_BQSR_bam.py" beforeDir="false" afterPath="$PROJECT_DIR$/GWAS/5_BQSR_bam(fail_to_do).py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GWAS/6_HaplotypeCaller.py" beforeDir="false" afterPath="$PROJECT_DIR$/GWAS/6_HaplotypeCaller.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GWAS/6_HaplotypeCaller_ctg.py" beforeDir="false" afterPath="$PROJECT_DIR$/GWAS/6_HaplotypeCaller_ctg(Choose_to_do).py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GWAS/7_gvcf-vcf.py" beforeDir="false" afterPath="$PROJECT_DIR$/GWAS/7_gvcf-vcf.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GWAS/7_gvcf-vcf_ctg.py" beforeDir="false" afterPath="$PROJECT_DIR$/GWAS/7_gvcf-vcf_ctg(Choose_to_do).py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GWAS/7_gvcf-vcf_ctg_zhb.py" beforeDir="false" afterPath="$PROJECT_DIR$/GWAS/7_gvcf-vcf_ctg_zhb(Choose_to_do).py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GWAS/8_select_SNP_INDEL.py" beforeDir="false" afterPath="$PROJECT_DIR$/GWAS/8_select_SNP_INDEL.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GWAS/8_select_SNP_INDEL_ctg.py" beforeDir="false" afterPath="$PROJECT_DIR$/GWAS/8_select_SNP_INDEL_ctg(Choose_to_do).py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GWAS/9_View_SNP_distribution.py" beforeDir="false" afterPath="$PROJECT_DIR$/GWAS/9_View_SNP_distribution(Choose_to_do).py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GWAS/FastQC.py" beforeDir="false" afterPath="$PROJECT_DIR$/GWAS/FastQC(Original_quality_control).py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GWAS/Trimmomatic.py" beforeDir="false" afterPath="$PROJECT_DIR$/GWAS/Trimmomatic(Original_quality_control).py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GWAS/hc.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GWAS/rename.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GWAS/rename.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/我的Python应用/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/我的Python应用/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -894,7 +876,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662724194450</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Merge remote-tracking branch 'origin/master'">
+      <created>1662881954411</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1662881954411</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
