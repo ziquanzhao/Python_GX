@@ -16,7 +16,7 @@ with open('9_View_SNP_INDEL_distribution.sh', 'a') as snp_indel:
     snp_indel.write('#!/bin/bash\n')
     for i in snp_filename:
         if '_snp.vcf' in i and '.idx' not in i:
-            snpvcf_filename = re.sub('_snp.vcf\n', '', i)
+            snpvcf_filename = re.sub('_snp.vcf', '', i)
             snp_indel.write(f'java -jar /mnt/storage/zhaoziquan/GWAS/software/gatk-4.2.6.1/gatk-package-4.2.6.1-local.jar VariantsToTable -V {snpvcf_path}{snpvcf_filename}_snp.vcf -F CHROM -F POS -F QD -F QUAL -F SOR -F FS -F MQ -F MQRankSum -F ReadPosRankSum -O {snpvcf_filename}_snp.recode.table\n')
             snp_indel.write(f'java -jar /mnt/storage/zhaoziquan/GWAS/software/gatk-4.2.6.1/gatk-package-4.2.6.1-local.jar VariantsToTable -V {snpvcf_path}{snpvcf_filename}_indel.vcf -F CHROM -F POS -F QD -F QUAL -F SOR -F FS -F MQ -F MQRankSum -F ReadPosRankSum -O {snpvcf_filename}_indel.recode.table\n')
 

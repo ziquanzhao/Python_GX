@@ -26,7 +26,7 @@ with open('ctgid.txt', 'r') as ctgid:
 
 for i in bam_name:
     if 'bai' not in i and 'metrics' not in i:
-        bam_new_name= re.sub('_sort_dedup.bam\n', '', i)
+        bam_new_name= re.sub('_sort_dedup.bam', '', i)
         with open(f'6_HC_{bam_new_name}.sh', 'a') as hc_ctg:
             hc_ctg.write('#!/bin/bash\n')
             for ctg in ctg_name:

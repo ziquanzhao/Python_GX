@@ -19,7 +19,7 @@ with open('8_select_SNP.sh', 'a') as select_snp:
     select_snp.write('#!/bin/bash\n')
     for i in vcf_filename:
         if '.idx' not in i and 'g' not in i and '.vcf' in i:
-            vcf_new_name = re.sub('.vcf\n', '', i)
+            vcf_new_name = re.sub('.vcf', '', i)
             vcf_id_name = vcf_new_name.replace('chr', '')
             select_snp.write(f'java -jar {GATK_sorfware_path} SelectVariants -R {ref_path} -V {vcf_path}{vcf_new_name}.vcf -O {vcf_new_name}_snp.vcf -L Lachesis_group{vcf_id_name} --select-type-to-include SNP\n')
 
@@ -27,7 +27,7 @@ with open('8_select_INDEL.sh', 'a') as select_INDEL:
     select_INDEL.write('#!/bin/bash\n')
     for i in vcf_filename:
         if '.idx' not in i and 'g' not in i and '.vcf' in i:
-            vcf_new_name = re.sub('.vcf\n', '', i)
+            vcf_new_name = re.sub('.vcf', '', i)
             vcf_id_name = vcf_new_name.replace('chr', '')
             select_INDEL.write(f'java -jar {GATK_sorfware_path} SelectVariants -R {ref_path} -V {vcf_path}{vcf_new_name}.vcf -O {vcf_new_name}_indel.vcf -L Lachesis_group{vcf_id_name} --select-type-to-include INDEL\n')
 

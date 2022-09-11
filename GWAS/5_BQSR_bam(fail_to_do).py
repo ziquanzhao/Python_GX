@@ -21,7 +21,7 @@ with open('5_BQSR_bam.sh', 'a') as BQSR_bam:
     BQSR_bam.write('#!/bin/bash\n')
     for i in bam_filename:
         if 'bai' not in i and 'metrics' not in i:
-            name = re.sub('.bam\n', '', i)
+            name = re.sub('.bam', '', i)
             BQSR_bam.write(f'java -jar {GATK_sorfware_path} -R {ref_path} -I {bam_dedup_path}{name}.bam -knownSites {knownsites_path} -O {name}_recal.table\n')
             BQSR_bam.write(f'java -jar {GATK_sorfware_path} PrintReads -R {ref_path} -I {bam_dedup_path}{name}.bam -BQSR ./{name}_recal.table -O {name}_recal.bam\n')
 

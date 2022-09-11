@@ -20,7 +20,7 @@ with open('6_HaplotypeCaller.sh', 'a') as HaplotypeCaller:
     HaplotypeCaller.write('#!/bin/bash\n')
     for i in bam_filename:
         if 'bai' not in i and 'metrics' not in i:
-            name = re.sub('.bam\n', '', i)
+            name = re.sub('.bam', '', i)
             for Lachesis_group in range(1, 16, 1):
                 HaplotypeCaller.write(f'java -jar {GATK_sorfware_path} HaplotypeCaller -R {ref_path} -I {bam_dedup_path}{name}.bam -ERC GVCF -L Lachesis_group{Lachesis_group} -O {name}_chr{Lachesis_group}.g.vcf\n')
 
