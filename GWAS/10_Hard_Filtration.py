@@ -2,6 +2,7 @@
 # 编写时间：2022/8/31 21:09
 # 邮箱:2939818719@qq.com
 import os
+import re
 
 if os.path.exists('10_Hard_Filtration'):
     print('已存在10_Hard_Filtration目录，无需创建')
@@ -16,8 +17,7 @@ snp_filename = os.listdir(snpvcf_path)
 with open('10_Hard_Filtration.sh', 'a') as hard_filter:
     hard_filter.write('#!/bin/bash\n')
     for snpfile in snp_filename:
-        snpfile = snpfile.replace('\n', '')
-        snpfile = snpfile.replace('.vcf', '')
+        snpfile = re.sub('.vcf\n', '', snpfile)
         if 'snp' in snpfile and '.idx' not in snpfile:
             hard_filter.write(f'java -jar {GATK_sorfware_path} VariantFiltration -V {snpvcf_path}{snpfile}.vcf -R {ref_path} -filter "QD < 2.0" --filter-name "QD2" -filter "SOR > 3.0" --filter-name "SOR3" -filter "FS > 30.0" --filter-name "FS30" -filter "MQ < 40.0" --filter-name "MQ40" -O {snpfile}_filter.vcf\n')
             hard_filter.write(f'grep -E \'#|PASS\' {snpfile}_filter.vcf > {snpfile}.vcf\n')
@@ -27,5 +27,3 @@ with open('10_Hard_Filtration.sh', 'a') as hard_filter:
 
 os.system('mv ./10_Hard_Filtration.sh ./10_Hard_Filtration/')
 print('\033[1;36m在当前目录下，有一个叫10_Hard_Filtration的文件夹，里面有shell脚本，执行它即可\033[m')
-
-
