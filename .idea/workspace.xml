@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e23a9593-2b23-4663-87ae-9b9aa4a767ad" name="变更" comment="Merge remote-tracking branch 'origin/master'">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/_2022_9_11_21_33____.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/_2022_9_11_21_33____.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GWAS/10_Hard_Filtration.py" beforeDir="false" afterPath="$PROJECT_DIR$/GWAS/10_Hard_Filtration.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GWAS/11_hebing_snp_indel.py" beforeDir="false" afterPath="$PROJECT_DIR$/GWAS/11_hebing_snp_indel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GWAS/5_BQSR_bam(fail_to_do).py" beforeDir="false" afterPath="$PROJECT_DIR$/GWAS/5_BQSR_bam(fail_to_do).py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GWAS/6_HaplotypeCaller.py" beforeDir="false" afterPath="$PROJECT_DIR$/GWAS/6_HaplotypeCaller.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GWAS/6_HaplotypeCaller_ctg(Choose_to_do).py" beforeDir="false" afterPath="$PROJECT_DIR$/GWAS/6_HaplotypeCaller_ctg(Choose_to_do).py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GWAS/8_select_SNP_INDEL.py" beforeDir="false" afterPath="$PROJECT_DIR$/GWAS/8_select_SNP_INDEL.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GWAS/9_View_SNP_distribution(Choose_to_do).py" beforeDir="false" afterPath="$PROJECT_DIR$/GWAS/9_View_SNP_distribution(Choose_to_do).py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +31,10 @@
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Python第三章程序结构-对象布尔值-if-pass/分支结构多种if函数.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Python第四章Range，while，for，break，continue，else/循环结构.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -43,6 +43,7 @@
   </component>
   <component name="ProjectId" id="286jweUifvEzuFwwjb2XWAGXxmE" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -721,20 +722,20 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.111111111111" />
       <item itemvalue="Python.11" />
       <item itemvalue="Python.1_bwaindex" />
       <item itemvalue="Python.6_HaplotypeCaller" />
+      <item itemvalue="Python.7_gvcf-vcf_ctg(Choose_to_do)" />
       <item itemvalue="Python.GUI" />
       <item itemvalue="Python.Python下载视频-图片-文件" />
+      <item itemvalue="Python.字符串匹配提取输出" />
       <item itemvalue="Python.布局管理器grid (1)" />
       <item itemvalue="Python.分支结构多种if函数" />
       <item itemvalue="Python.main" />
       <item itemvalue="Python.pdbqt文件输出能量值" />
-      <item itemvalue="Python.7_gvcf-vcf_ctg(Choose_to_do)" />
-      <item itemvalue="Python.字符串匹配提取输出" />
       <item itemvalue="Python.rename" />
       <item itemvalue="Python.test" />
-      <item itemvalue="Python.111111111111" />
     </list>
     <recent_temporary>
       <list>
@@ -888,14 +889,7 @@
       <option name="project" value="LOCAL" />
       <updated>1662881954411</updated>
     </task>
-    <task id="LOCAL-00020" summary="Merge remote-tracking branch 'origin/master'">
-      <created>1662886694391</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1662886694391</updated>
-    </task>
-    <option name="localTasksCounter" value="21" />
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

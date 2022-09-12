@@ -5,6 +5,7 @@
 
 import os
 import re
-a = 'aa1234vo\nb41'
+a = 'aa1234vo.bam\n22'
+a = re.sub('.bam\n', '', a)
 b = re.sub('vo\nb', '', a)
-print(b)
+print(a)
