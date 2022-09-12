@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e23a9593-2b23-4663-87ae-9b9aa4a767ad" name="变更" comment="Merge remote-tracking branch 'origin/master'">
+    <list default="true" id="e23a9593-2b23-4663-87ae-9b9aa4a767ad" name="变更" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;GWAS/10_Hard_Filtration.py&#10;#&#9;GWAS/11_hebing_snp_indel.py">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GWAS/10_Hard_Filtration.py" beforeDir="false" afterPath="$PROJECT_DIR$/GWAS/10_Hard_Filtration.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GWAS/11_hebing_snp_indel.py" beforeDir="false" afterPath="$PROJECT_DIR$/GWAS/11_hebing_snp_indel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GWAS/5_BQSR_bam(fail_to_do).py" beforeDir="false" afterPath="$PROJECT_DIR$/GWAS/5_BQSR_bam(fail_to_do).py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GWAS/6_HaplotypeCaller.py" beforeDir="false" afterPath="$PROJECT_DIR$/GWAS/6_HaplotypeCaller.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GWAS/6_HaplotypeCaller_ctg(Choose_to_do).py" beforeDir="false" afterPath="$PROJECT_DIR$/GWAS/6_HaplotypeCaller_ctg(Choose_to_do).py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GWAS/8_select_SNP_INDEL.py" beforeDir="false" afterPath="$PROJECT_DIR$/GWAS/8_select_SNP_INDEL.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GWAS/9_View_SNP_distribution(Choose_to_do).py" beforeDir="false" afterPath="$PROJECT_DIR$/GWAS/9_View_SNP_distribution(Choose_to_do).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GWAS/FastQC(Original_quality_control).py" beforeDir="false" afterPath="$PROJECT_DIR$/GWAS/FastQC(Original_quality_control).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GWAS/Trimmomatic(Original_quality_control).py" beforeDir="false" afterPath="$PROJECT_DIR$/GWAS/Trimmomatic(Original_quality_control).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GWAS/record_snp_indel.py" beforeDir="false" afterPath="$PROJECT_DIR$/GWAS/record_snp_indel.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +31,10 @@
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Python第三章程序结构-对象布尔值-if-pass/分支结构多种if函数.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Python第四章Range，while，for，break，continue，else/循环结构.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -43,6 +43,7 @@
   </component>
   <component name="ProjectId" id="286jweUifvEzuFwwjb2XWAGXxmE" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -68,7 +69,7 @@
       <recent name="E:\Python\Python第一章" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test">
+  <component name="RunManager" selected="Python.11">
     <configuration name="字符串匹配提取输出" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -888,12 +889,12 @@
       <option name="project" value="LOCAL" />
       <updated>1662881954411</updated>
     </task>
-    <task id="LOCAL-00020" summary="Merge remote-tracking branch 'origin/master'">
-      <created>1662886694391</created>
+    <task id="LOCAL-00020" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;GWAS/10_Hard_Filtration.py&#10;#&#9;GWAS/11_hebing_snp_indel.py">
+      <created>1662947361502</created>
       <option name="number" value="00020" />
       <option name="presentableId" value="LOCAL-00020" />
       <option name="project" value="LOCAL" />
-      <updated>1662886694391</updated>
+      <updated>1662947361502</updated>
     </task>
     <option name="localTasksCounter" value="21" />
     <servers />
@@ -914,7 +915,8 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;GWAS/1_bwaindex.py" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;GWAS/10_Hard_Filtration.py&#10;#&#9;GWAS/11_hebing_snp_indel.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;GWAS/10_Hard_Filtration.py&#10;#&#9;GWAS/11_hebing_snp_indel.py" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

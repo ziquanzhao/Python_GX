@@ -21,7 +21,7 @@ with open('fastqc.sh', 'a') as fastaqc:
     fastaqc.write('#!/bin/bash\n')
     for filename in original_fq_data_filename:
         if 'R1' in filename:
-            filename = re.sub('_R1.fq.gz\n', '', filename)
+            filename = re.sub('_R1.fq.gz', '', filename)
             fastaqc.write(f'/mnt/storage/zhaoziquan/GWAS/software/FastQC/fastqc  /mnt/data/project/unknown/reseq/bypy/cleandata/{filename}_R1.fq.gz -o ./\n')
             fastaqc.write(f'/mnt/storage/zhaoziquan/GWAS/software/FastQC/fastqc  /mnt/data/project/unknown/reseq/bypy/cleandata/{filename}_R2.fq.gz -o ./\n')
 

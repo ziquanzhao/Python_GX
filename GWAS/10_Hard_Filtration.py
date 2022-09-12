@@ -27,5 +27,3 @@ with open('10_Hard_Filtration.sh', 'a') as hard_filter:
 
 os.system('mv ./10_Hard_Filtration.sh ./10_Hard_Filtration/')
 print('\033[1;36m在当前目录下，有一个叫10_Hard_Filtration的文件夹，里面有shell脚本，执行它即可\033[m')
-
-

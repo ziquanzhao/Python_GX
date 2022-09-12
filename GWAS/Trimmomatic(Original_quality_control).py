@@ -19,7 +19,7 @@ with open('trimmomatic.sh', 'a') as trim:
     trim.write('#!/bin/bash\n')
     for filename in original_fq_data_filename:
         if 'R1' in filename:
-            filename = re.sub('_R1.fq.gz\n', '', filename)
+            filename = re.sub('_R1.fq.gz', '', filename)
             trim.write(f'java -jar {trimmomatic_path} PE -threads 60 -phred33 {original_fq_data_path}{filename}_R1.fq.gz {original_fq_data_path}{filename}_R2.fq.gz -baseout {filename}.fq.gz ILLUMINACLIP:/mnt/storage/zhaoziquan/GWAS/software/Trimmomatic-0.39/adapters/TruSeq3-PE.fa:2:30:10:2:true SLIDINGWINDOW:4:15 LEADING:3 TRAILING:3 MINLEN:36 HEADCROP:5\n')
 
 os.system('mv ./trimmomatic.sh ./trimmomatic')
