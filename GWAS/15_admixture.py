@@ -22,7 +22,7 @@ with open('LD_prunein.txt', 'a') as LD_prunein:
             LD_prunein.write(f'{filename}_LD.prune.in.bed {filename}_LD.prune.in.bim {filename}_LD.prune.in.fam\n')
 with open('15_admixture.sh', 'a') as admixture:
     admixture.write('#!/bin/bash\n')
-    admixture.write(f'{plink2_software_path} --bfile {plink_LD_filtering_path}{filename}_LD.prune.in --noweb --bfile file --merge-list LD_prunein.txt --make-bed --out batch--recode 12 --out {filename}_LD_prune_in --threads 50\n')
+    admixture.write(f'{plink2_software_path} --bfile {plink_LD_filtering_path}{filename}_LD.prune.in --noweb --bfile chr10_LD.prune.in --merge-list LD_prunein.txt --make-bed --out all_LD_prune_in --threads 50\n')
 
 
 os.system('mv ./15_admixture.sh ./15_admixture/')

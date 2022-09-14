@@ -19,7 +19,7 @@ with open('10_Hard_Filtration.sh', 'a') as hard_filter:
     for snpfile in snp_filename:
         snpfile = re.sub('.vcf', '', snpfile)
         if 'snp' in snpfile and '.idx' not in snpfile:
-            hard_filter.write(f'java -jar {GATK_sorfware_path} VariantFiltration -V {snpvcf_path}{snpfile}.vcf -R {ref_path} -filter "QD < 2.0" --filter-name "QD2" -filter "SOR > 3.0" --filter-name "SOR3" -filter "FS > 30.0" --filter-name "FS30" -filter "MQ < 40.0" --filter-name "MQ40" -O {snpfile}_filter.vcf\n')
+            hard_filter.write(f'java -jar {GATK_sorfware_path} VariantFiltration -V {snpvcf_path}{snpfile}.vcf -R {ref_path} -filter "QD < 2.0" --filter-name "QD2" -filter "SOR > 3.0" --filter-name "SOR3" -filter "FS > 40.0" --filter-name "FS30" -filter "MQ < 40.0" --filter-name "MQ40" --cluster-window-size 10 --cluster-size 3 -O {snpfile}_filter.vcf\n')
             hard_filter.write(f'grep -E \'#|PASS\' {snpfile}_filter.vcf > {snpfile}.vcf\n')
         elif 'indel' in snpfile and '.idx' not in snpfile:
             hard_filter.write(f'java -jar {GATK_sorfware_path} VariantFiltration -V {snpvcf_path}{snpfile}.vcf -R {ref_path} -filter "QD < 2.0" --filter-name "QD2" -filter "SOR > 5.0" --filter-name "SOR5" -filter "FS > 50.0" --filter-name "FS50" -O {snpfile}_filter.vcf\n')
