@@ -11,6 +11,7 @@ else:
 
 bam_path = input('请输入所有bam文件所在路径，例如：/mnt/storage/zhaoziquan/GWAS/2_bwaaglin_sort_bam/：')
 picard_sorfware_path = input('请输入picard软件里picard.jar这个java包的绝对路径，例如：/mnt/storage/zhaoziquan/GWAS/software/picard/picard.jar：')
+sample_num = int(input('请告知我您有多少个样本，因为我后续会根据样本量拆解shell脚本，让您多个样本同时计算，以减少时间消耗，例如：200'))
 bam_filename = os.listdir(bam_path)
 
 with open('3_mark_duplicates.sh', 'a') as mark_duplicates:
@@ -18,7 +19,6 @@ with open('3_mark_duplicates.sh', 'a') as mark_duplicates:
     for i in bam_filename:
         name = i.replace('.bam', '')
         mark_duplicates.write(f'java -jar {picard_sorfware_path} MarkDuplicates -MAX_FILE_HANDLES_FOR_READ_ENDS_MAP 800 -REMOVE_DUPLICATES false -INPUT {bam_path}{name}.bam -OUTPUT {name}_dedup.bam -METRICS_FILE {name}_dedup.metrics -VALIDATION_STRINGENCY LENIENT\n')
-
 
 os.system('mv ./3_mark_duplicates.sh ./3_mark_duplicates')
 print('\033[1;36m在当前目录下，有一个叫3_mark_duplicates的文件夹，里面有一个shell脚本，执行它即可\033[m')

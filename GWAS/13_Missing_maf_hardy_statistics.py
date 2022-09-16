@@ -18,7 +18,7 @@ with open('13_Missing_rate_statistics.sh', 'a') as missing_statistics:
     for filename in imputation_filename:
         if '.idx' not in filename:
             filename = re.sub('_final_164.vcf', '', filename)
-            missing_statistics.write(f'{plink2_software_path} --vcf {imputation_file_path}{filename}_imputation.vcf.gz --allow-extra-chr --make-bed --max-alleles 2 --out {filename} --threads 50\n')   #vcf转plink二进制格式
+            missing_statistics.write(f'{plink2_software_path} --vcf {imputation_file_path}{filename}_final_164.vcf --allow-extra-chr --make-bed --max-alleles 2 --out {filename} --threads 50\n')   #vcf转plink二进制格式
             missing_statistics.write(f'{plink2_software_path} -bfile {filename} --missing --out {filename} --allow-extra-chr --threads 50\n')  #统计缺失率
             missing_statistics.write(f'{plink2_software_path} -bfile {filename} --freq --out {filename}_maf --allow-extra-chr --threads 50\n')  #统计maf
             missing_statistics.write(f'{plink2_software_path} -bfile {filename} --hardy --out {filename} --allow-extra-chr --threads 50\n')  #统计哈温
