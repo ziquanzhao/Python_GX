@@ -19,8 +19,8 @@ with open('14_LD_filter.sh', 'a') as LD:
     for filename in plink_mmh_filtering_bfilename:
         if '.vcf' in filename:
             filename = re.sub('_plink_filtering.vcf', '', filename)
-            LD.write(f'{plink2_software_path} --vcf {plink_mmh_filtering_path}{filename}_plink_filtering.vcf --export vcf --set-all-var-ids \'@_#\' --allow-extra-chr --allow-no-sex --indep-pairwise 100 100 0.2 --out {filename}_LD_filter --threads 50\n')
-            LD.write(f'{plink_software_path} --vcf {filename}_LD_filter.vcf --extract {filename}_LD_filter.prune.in --out {filename}_admixture --recode 12 --allow-extra-chr --threads 50\n')
+            LD.write(f'{plink2_software_path} --vcf {plink_mmh_filtering_path}{filename}_plink_filtering.vcf --export vcf --set-all-var-ids \'@_#\' --allow-extra-chr --allow-no-sex --indep-pairwise 200 5 0.2 --out {filename}_LD_filter --threads 50\n')
+            LD.write(f'{plink_software_path} --vcf {filename}_LD_filter.vcf --extract {filename}_LD_filter.prune.in --out {filename}_admixture --make-bed --allow-extra-chr --threads 50\n')
 
 os.system('mv ./14_LD_filter.sh ./14_LD_view_filter/')
 print('\033[1;36m在当前目录下，有一个叫14_LD_view_filter的文件夹，里面有一个shell脚本，执行它即可\033[m')
@@ -35,4 +35,5 @@ print('\033[1;36m在当前目录下，有一个叫14_LD_view_filter的文件夹�
 #--ld-window 表示计算LD的区间，表示距离小于这个值的标记对都要进行LD的计算。
 #--ld-window-kb 默认为1Mb，表示只对距离在1Mb之内的SNP位点进行分析。
 #--ld-window-r2 0.2 这个参数只能和 --r2参数搭配使用，默认值为0.2对输出结果进行过滤，只输出r2大于该参数的r2值
-#--indep-pairwise 300000 1000 0.2 300kb,1000个SNP，r方=0.2
+#--indep-pairwise 500 10 0.2。500为一个窗口，检测500bp范围内大于0.2的snp对，然后删掉其中一个，最后整个窗口向前走10bp继续检验。
+#500越大，10越小，0.2越小，所得到的就越少，一般来说，GWAS只需要10w个标记就可以，所以可以根据prine.in的输出结果来调节indep-pairwise-kb。注意一般调节500，不要调节其他的

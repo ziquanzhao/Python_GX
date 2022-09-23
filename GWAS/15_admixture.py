@@ -11,21 +11,13 @@ else:
     os.mkdir('15_admixture')
 
 admixtrue_software_path = input('请输入admixtrue软件的绝对路径，例如：/mnt/storage/zhaoziquan/GWAS/software/admixture/admixtrue：')
-plink_LD_filtering_path = input('请输入已经完成LD筛选后文件所在目录，例如：/mnt/storage/zhaoziquan/GWAS/14_LD_view_filter/：')
-plink_LD_filtering_bfilename = os.listdir(plink_LD_filtering_path)
+plink_LD_filtering_path = input('请输入已经完成LD筛选后二进制文件的绝对路径，例如：/mnt/storage/zhaoziquan/GWAS/14_LD_view_filter/allchr_noctg_ld：')
 
-'''
-for ped_filename in plink_LD_filtering_bfilename:
-    if '_admixture.ped' in ped_filename and 'ctg' not in ped_filename and 'chr1_admixture' not in ped_filename:
-        ped_filename = re.sub('.ped', '', ped_filename)
-        with open('list.txt', 'a') as pedlist:
-            pedlist.write(f'{ped_filename}.ped {ped_filename}.map\n')
-'''
+
 
 with open('15_admixture.sh', 'a') as admixture:
     admixture.write('#!/bin/bash\n')
-    #admixture.write(f'/mnt/storage/zhaoziquan/GWAS/software/plink/plink -file {plink_LD_filtering_path}chr1_admixture --merge-list list.txt --recode 12 --out chr_noctg_admixture --allow-extra-chr\n')
-    #admixture.write('sed -i \'s/Lachesis_group//g\' chr_noctg_admixture.bim\n')
+    admixture.write(f'sed -i \'s/Lachesis_group//g\' {plink_LD_filtering_path}.bim\n')
     for K in range(1, 21, 1):
         cycles = 1
         while True:
