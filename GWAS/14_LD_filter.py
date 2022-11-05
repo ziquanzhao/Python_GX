@@ -19,7 +19,7 @@ with open('14_LD_filter.sh', 'a') as LD:
     for filename in plink_mmh_filtering_bfilename:
         if '.vcf' in filename:
             filename = re.sub('_plink_filtering.vcf', '', filename)
-            LD.write(f'{plink2_software_path} --vcf {plink_mmh_filtering_path}{filename}_plink_filtering.vcf --export vcf --set-all-var-ids \'@_#\' --allow-extra-chr --allow-no-sex --indep-pairwise 200 5 0.2 --out {filename}_LD_filter --threads 50\n')
+            LD.write(f'{plink2_software_path} --vcf {plink_mmh_filtering_path}{filename}_plink_filtering.vcf --export vcf --set-all-var-ids \'@_#\' --allow-extra-chr --allow-no-sex --indep-pairwise 14000 10 0.7 --out {filename}_LD_filter --threads 50\n')
             LD.write(f'{plink_software_path} --vcf {filename}_LD_filter.vcf --extract {filename}_LD_filter.prune.in --out {filename}_admixture --make-bed --allow-extra-chr --threads 50\n')
 
 os.system('mv ./14_LD_filter.sh ./14_LD_view_filter/')
