@@ -2,6 +2,8 @@
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/GWAS/17_gwas_prepare.py" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/GWAS/1_bwaindex.sh" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/GWAS/GWAS1_genome_index.sh" charset="GBK" />
     <file url="file://$PROJECT_DIR$/我的Python应用/idsall.py" charset="GBK" />
     <file url="PROJECT" charset="UTF-8" />
   </component>

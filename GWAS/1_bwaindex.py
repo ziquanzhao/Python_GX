@@ -4,6 +4,7 @@
 # 邮箱:2939818719@qq.com
 import os
 
+
 if os.path.exists('1_bwaindex'):
     print('1_bwaindex目录已存在，无需创建')
 else:
