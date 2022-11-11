@@ -11,7 +11,7 @@ else:
     os.mkdir('15_admixture')
 
 admixtrue_software_path = input('请输入admixtrue软件的绝对路径，例如：/mnt/storage/zhaoziquan/GWAS/software/admixture/admixtrue：')
-plink_LD_filtering_path = input('请输入已经完成LD筛选后二进制文件的绝对路径，例如：/mnt/storage/zhaoziquan/GWAS/14_LD_view_filter/allchr_noctg_ld：')
+plink_LD_filtering_path = input('请输入已经完成LD筛选后二进制文件的绝对路径，例如：/mnt/storage/zhaoziquan/GWAS/olddata/13_Missing_rate_filtering/TL230_LD_final：')
 
 
 
@@ -22,7 +22,7 @@ with open('15_admixture.sh', 'a') as admixture:
         cycles = 1
         while True:
             if cycles <= 30:
-                admixture.write(f'admixtrue -B50 --cv chr_noctg_admixture.bed {K} -j50 >> admixture_{K}.txt\n')
+                admixture.write(f'admixtrue -B50 --cv /mnt/storage/zhaoziquan/GWAS/olddata/13_Missing_rate_filtering/TL230_LD_final.bed {K} -j50 >> admixture_{K}.txt\n')
                 cycles = cycles + 1
                 continue
             else:

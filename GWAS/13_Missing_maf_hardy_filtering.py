@@ -18,7 +18,10 @@ with open('13_Missing_rate_filtering.sh', 'a') as filtering:
     for filename in plink_bfilename:
         if '.idx' not in filename:
             filename = re.sub('_final_164.vcf', '', filename)
-            filtering.write(f'{plink2_software_path} --vcf {plink_bfile_path}{filename}_final_164.vcf --export vcf --allow-extra-chr --geno 0.2 --maf 0.05 --hwe 1e-6 --vcf-max-dp 50 --vcf-min-dp 4 --vcf-min-gq 10 --min-alleles 2 --max-alleles 2 --var-min-qual 30 --out {filename}_plink_filtering --threads 50\n')
+            filtering.write(f'{plink2_software_path} --vcf {plink_bfile_path}{filename}_final_164.vcf --export vcf --allow-extra-chr '
+                            f'--geno 0.2 --maf 0.05 --hwe 1e-6 '
+                            f'--vcf-max-dp 50 --vcf-min-dp 4 --vcf-min-gq 10 '
+                            f'--min-alleles 2 --max-alleles 2 --var-min-qual 30 --out {filename}_plink_filtering --threads 50\n')
 
 os.system('mv ./13_Missing_rate_filtering.sh ./13_Missing_rate_filtering/')
 print('\033[1;36m在当前目录下，有一个叫13_Missing_rate_filtering的文件夹，里面有一个shell脚本，执行它即可\033[m')
