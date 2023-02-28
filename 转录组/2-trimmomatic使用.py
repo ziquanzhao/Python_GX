@@ -67,13 +67,17 @@ MINLEN:<length>
 TOPHRED33/TOPHRED64
     质量分数的编码转换。该指令没有其他参数
     一般不用
+
+-summary <statsSummaryFile>
+过滤的摘要文件
 '''
 
 '''
 示例：
 java -jar {trimmomatic_path} PE -threads 60 -phred33 
--basein {original_fq_data_path}{filename}_R1.fq.gz {original_fq_data_path}{filename}_R2.fq.gz 
+{original_fq_data_path}{filename}_R1.fq.gz {original_fq_data_path}{filename}_R2.fq.gz 
 -baseout {filename}.fq.gz 
+-summary statssummaryfile.log
 ILLUMINACLIP:/mnt/storage/zhaoziquan/GWAS/software/Trimmomatic-0.39/adapters/TruSeq3-PE.fa:2:30:10:2:true 
 SLIDINGWINDOW:4:15 LEADING:3 TRAILING:3 MINLEN:36 HEADCROP:5
 '''
