@@ -8,7 +8,6 @@ c='PYThon'
 
 #upper,把所有字母全部转换为大写
 b1=b.upper()   #转成大写后产生一个新字符串
-print(b1)
 
 #lower,把所有字母全部转换为小写
 a1=a.lower()    #转成大写后产生一个新字符串
