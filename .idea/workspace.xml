@@ -4,76 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<<<< Temporary merge branch 1
+    <list default="true" id="e23a9593-2b23-4663-87ae-9b9aa4a767ad" name="变更" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+=========
     <list default="true" id="e23a9593-2b23-4663-87ae-9b9aa4a767ad" name="变更" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
-      <change beforePath="$PROJECT_DIR$/python学习/Python第一章print-数据类型-转义字符-变量/Python中的Keyword和变量命名规则.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python学习/Python第一章print-数据类型-转义字符-变量/Python函数-print.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python学习/Python第一章print-数据类型-转义字符-变量/Python数据类型.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python学习/Python第一章print-数据类型-转义字符-变量/Python文件储存类型.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python学习/Python第一章print-数据类型-转义字符-变量/转义字符.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python学习/Python第三章程序结构-对象布尔值-if-pass/if函数的简写.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python学习/Python第三章程序结构-对象布尔值-if-pass/pass语句，仅仅是占位.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python学习/Python第三章程序结构-对象布尔值-if-pass/分支结构多种if函数.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python学习/Python第三章程序结构-对象布尔值-if-pass/对象布尔值.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python学习/Python第九章如何编程/编程思想，类，对象.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python学习/Python第二章input和运算/Python函数input.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python学习/Python第二章input和运算/python运算顺序.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python学习/Python第二章input和运算/布尔运算.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python学习/Python第二章input和运算/比较运算符.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python学习/Python第二章input和运算/算数运算规则.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python学习/Python第二章input和运算/赋值运算.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python学习/Python第五章列表，元组，字典，字符串/元组.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python学习/Python第五章列表，元组，字典，字符串/列表.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python学习/Python第五章列表，元组，字典，字符串/字典.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python学习/Python第五章列表，元组，字典，字符串/集合.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python学习/Python第八章BUG/Python-try-except-else.py" beforeDir="false" afterPath="$PROJECT_DIR$/python学习/Python第八章BUG/Python-try-except-else.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python学习/Python第六章字符串操作：查重，驻留，比价，切片，格式化，转码/判断字符串是否合法.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python学习/Python第六章字符串操作：查重，驻留，比价，切片，格式化，转码/字符串内容对齐.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python学习/Python第六章字符串操作：查重，驻留，比价，切片，格式化，转码/字符串分割操作.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python学习/Python第六章字符串操作：查重，驻留，比价，切片，格式化，转码/字符串大小写转换.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python学习/Python第六章字符串操作：查重，驻留，比价，切片，格式化，转码/字符串查询.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python学习/Python第六章字符串操作：查重，驻留，比价，切片，格式化，转码/字符串的切片操作.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python学习/Python第六章字符串操作：查重，驻留，比价，切片，格式化，转码/字符串的合并.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python学习/Python第六章字符串操作：查重，驻留，比价，切片，格式化，转码/字符串的替换.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python学习/Python第六章字符串操作：查重，驻留，比价，切片，格式化，转码/字符串的编码和解码--查重.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python学习/Python第六章字符串操作：查重，驻留，比价，切片，格式化，转码/字符串的驻留机制.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python学习/Python第六章字符串操作：查重，驻留，比价，切片，格式化，转码/格式化字符串.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python学习/Python第四章Range，while，for，break，continue，else/Continue.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python学习/Python第四章Range，while，for，break，continue，else/For.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python学习/Python第四章Range，while，for，break，continue，else/Range（）生成序列.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python学习/Python第四章Range，while，for，break，continue，else/break.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python学习/Python第四章Range，while，for，break，continue，else/嵌套循环.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python学习/Python第四章Range，while，for，break，continue，else/循环结构.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/我的Python应用/101_sort_dedup_chr1.gvcf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/我的Python应用/101_sort_dedup_chr1.gvcf.idx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/我的Python应用/GUI.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/我的Python应用/chr10.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/我的Python应用/chr11.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/我的Python应用/idsall.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/我的Python应用/list" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/我的Python应用/newsnp2.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/我的Python应用/pdbqt文件输出能量值.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/我的Python应用/result.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/我的Python应用/snpid.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/我的Python应用/trimmomatic.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/我的Python应用/vcf2hmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/我的Python应用/xso-genegff.gff3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/我的Python应用/判断URL是否正确.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/我的Python应用/字符串匹配提取输出.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/我的Python应用/学生信息管理系统/studentinformation.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/我的Python应用/学生信息管理系统/需求分析.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/我的Python应用/新建文本文档.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/我的Python应用/案例/test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/我的Python应用/案例/变量输出金陵十二杈.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/我的Python应用/案例/向文件输出’字符串.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/我的Python应用/案例/如何将程序打包成.exe文件.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/我的Python应用/案例/指定十进制数转换为其他进制的数.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/我的Python应用/案例/改变打印颜色.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/我的Python应用/案例/模拟银行密码登录.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/我的Python应用/网页媒体类文件下载器.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/我的Python应用/邮件.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/我的Python应用/邮件下载.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/我的Python应用/音乐播放器.py" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/~$thon基础.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python基础.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Python基础.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python学习/Python第六章字符串操作：查重，驻留，比价，切片，格式化，转码/判断字符串是否合法.py" beforeDir="false" afterPath="$PROJECT_DIR$/python学习/Python第六章字符串操作：查重，驻留，比价，切片，格式化，转码/判断字符串是否合法.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python学习/Python第六章字符串操作：查重，驻留，比价，切片，格式化，转码/字符串分割操作.py" beforeDir="false" afterPath="$PROJECT_DIR$/python学习/Python第六章字符串操作：查重，驻留，比价，切片，格式化，转码/字符串分割操作.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python学习/Python第六章字符串操作：查重，驻留，比价，切片，格式化，转码/字符串大小写转换.py" beforeDir="false" afterPath="$PROJECT_DIR$/python学习/Python第六章字符串操作：查重，驻留，比价，切片，格式化，转码/字符串大小写转换.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python学习/Python第六章字符串操作：查重，驻留，比价，切片，格式化，转码/字符串的切片操作.py" beforeDir="false" afterPath="$PROJECT_DIR$/python学习/Python第六章字符串操作：查重，驻留，比价，切片，格式化，转码/字符串的切片操作.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python学习/Python第六章字符串操作：查重，驻留，比价，切片，格式化，转码/字符串的合并.py" beforeDir="false" afterPath="$PROJECT_DIR$/python学习/Python第六章字符串操作：查重，驻留，比价，切片，格式化，转码/字符串的合并.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python学习/Python第六章字符串操作：查重，驻留，比价，切片，格式化，转码/字符串的替换.py" beforeDir="false" afterPath="$PROJECT_DIR$/python学习/Python第六章字符串操作：查重，驻留，比价，切片，格式化，转码/字符串的替换.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
+>>>>>>>>> Temporary merge branch 2
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -117,7 +63,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;E:/Python&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -130,133 +76,7 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.test">
-    <configuration name="字符串匹配提取输出" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true" nameIsGenerated="true">
-      <module name="Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="E:\Python\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/我的Python应用" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/我的Python应用/字符串匹配提取输出.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="11" type="PythonConfigurationType" factoryName="Python" singleton="false" nameIsGenerated="true">
-      <module name="Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="D:\APPData\PyCharm\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/我的Python应用" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/我的Python应用/11.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="111111111111" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true">
-      <module name="Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/我的Python应用/chrid" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/我的Python应用/chrid/11.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="1_bwaindex" type="PythonConfigurationType" factoryName="Python" singleton="false" nameIsGenerated="true">
-      <module name="Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="D:\APPData\PyCharm\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/我的Python应用" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/我的Python应用/1_bwaindex.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="7_gvcf-vcf_ctg(Choose_to_do)" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true" nameIsGenerated="true">
-      <module name="Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="E:\Python\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GWAS" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\Python\GWAS\7_gvcf-vcf_ctg(Choose_to_do).py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="GUI" type="PythonConfigurationType" factoryName="Python" singleton="false" nameIsGenerated="true">
-      <module name="Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="D:\APPData\PyCharm\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/我的Python应用" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/我的Python应用/GUI/GUI.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="GWAS" type="PythonConfigurationType" factoryName="Python" singleton="false" nameIsGenerated="true">
+    <configuration name="字符串的切片操作" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -264,200 +84,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="C:\Python3.10.4\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GWAS" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GWAS/GWAS.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python下载视频-图片-文件" type="PythonConfigurationType" factoryName="Python" singleton="false" nameIsGenerated="true">
-      <module name="Python学习" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="E:\Python\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/我的Python应用" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/我的Python应用/Python下载视频-图片-文件.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="画布" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true" nameIsGenerated="true">
-      <module name="Python学习" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/我的Python应用/GUI" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python学习/Python第六章字符串操作：查重，驻留，比价，切片，格式化，转码" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/我的Python应用/GUI/画布.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="指定十进制数转换为其他进制的数" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true" nameIsGenerated="true">
-      <module name="Python学习" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="E:\Python\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/案例" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/案例/指定十进制数转换为其他进制的数.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="视频下载器" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true" nameIsGenerated="true">
-      <module name="Python学习" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="E:\Python\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/我的Python应用" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/我的Python应用/视频下载器.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="向文件输出’字符串" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true" nameIsGenerated="true">
-      <module name="Python学习" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="E:\Python\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/案例/案例一：文件输出" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="E:\Python\案例\向文件输出’字符串.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="需求分析" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true" nameIsGenerated="true">
-      <module name="Python学习" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="E:\Python\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/学生信息管理系统" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/学生信息管理系统/需求分析.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="变量输出金陵十二杈" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true" nameIsGenerated="true">
-      <module name="Python学习" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="E:\Python\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/案例" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/案例/变量输出金陵十二杈.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="模拟银行密码登录" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true" nameIsGenerated="true">
-      <module name="Python学习" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="E:\Python\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/案例" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/案例/模拟银行密码登录.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="需求分析" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true" nameIsGenerated="true">
-      <module name="Python学习" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="E:\Python\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/学生信息管理系统" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/学生信息管理系统/需求分析.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python学习/Python第六章字符串操作：查重，驻留，比价，切片，格式化，转码/字符串的切片操作.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -634,19 +265,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python" singleton="false">
+    <configuration name="画布" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true" nameIsGenerated="true">
       <module name="Python学习" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="E:\Python\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/我的Python应用/GUI" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/我的Python应用/GUI/画布.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -655,61 +286,166 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="bedtools_seqtk" type="PythonConfigurationType" factoryName="Python" singleton="false" nameIsGenerated="true">
+    <configuration name="指定十进制数转换为其他进制的数" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true" nameIsGenerated="true">
+      <module name="Python学习" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="E:\Python\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/案例" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/案例/指定十进制数转换为其他进制的数.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="视频下载器" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true" nameIsGenerated="true">
+      <module name="Python学习" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="E:\Python\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/我的Python应用" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/我的Python应用/视频下载器.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="向文件输出’字符串" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true" nameIsGenerated="true">
+      <module name="Python学习" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="E:\Python\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/案例/案例一：文件输出" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="E:\Python\案例\向文件输出’字符串.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="需求分析" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true" nameIsGenerated="true">
+      <module name="Python学习" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="E:\Python\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/学生信息管理系统" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/学生信息管理系统/需求分析.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="变量输出金陵十二杈" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true" nameIsGenerated="true">
+      <module name="Python学习" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="E:\Python\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/案例" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/案例/变量输出金陵十二杈.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="模拟银行密码登录" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true" nameIsGenerated="true">
+      <module name="Python学习" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="E:\Python\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/案例" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/案例/模拟银行密码登录.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="需求分析" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true" nameIsGenerated="true">
+      <module name="Python学习" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="E:\Python\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/学生信息管理系统" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/学生信息管理系统/需求分析.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python" singleton="false">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="D:\APPData\PyCharm\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GWAS" />
+      <option name="SDK_HOME" value="C:\Python3.10.4\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GWAS/bedtools_seqtk.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="布局管理器grid (1)" type="PythonConfigurationType" factoryName="Python" singleton="false" nameIsGenerated="true">
-      <module name="Python学习" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="E:\Python\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/我的Python应用/GUI" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/我的Python应用/GUI/布局管理器grid.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="分支结构多种if函数" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="Python学习" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="E:\Python\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python第三章程序结构-对象布尔值-if-pass" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python第三章程序结构-对象布尔值-if-pass/分支结构多种if函数.py" />
+      <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -725,54 +461,12 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="D:\APPData\PyCharm\venv\Scripts\python.exe" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pdbqt文件输出能量值" type="PythonConfigurationType" factoryName="Python" singleton="false" nameIsGenerated="true">
-      <module name="Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="D:\APPData\PyCharm\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/我的Python应用" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/我的Python应用/pdbqt文件输出能量值.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="rename" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true" nameIsGenerated="true">
-      <module name="Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="E:\Python\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GWAS" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GWAS/rename.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -788,12 +482,12 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="E:\Python\venv\Scripts\python.exe" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/我的Python应用" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="E:\Python\test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -803,28 +497,13 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.11" />
-      <item itemvalue="Python.1_bwaindex" />
-      <item itemvalue="Python.GUI" />
-      <item itemvalue="Python.GWAS" />
-      <item itemvalue="Python.Python下载视频-图片-文件" />
-      <item itemvalue="Python.bedtools_seqtk" />
-      <item itemvalue="Python.布局管理器grid (1)" />
-      <item itemvalue="Python.分支结构多种if函数" />
       <item itemvalue="Python.main" />
-      <item itemvalue="Python.pdbqt文件输出能量值" />
       <item itemvalue="Python.test" />
-      <item itemvalue="Python.111111111111" />
-      <item itemvalue="Python.7_gvcf-vcf_ctg(Choose_to_do)" />
-      <item itemvalue="Python.字符串匹配提取输出" />
-      <item itemvalue="Python.rename" />
+      <item itemvalue="Python.字符串的切片操作" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.字符串匹配提取输出" />
-        <item itemvalue="Python.7_gvcf-vcf_ctg(Choose_to_do)" />
-        <item itemvalue="Python.rename" />
-        <item itemvalue="Python.111111111111" />
+        <item itemvalue="Python.字符串的切片操作" />
       </list>
     </recent_temporary>
   </component>
@@ -1061,14 +740,18 @@
       <option name="project" value="LOCAL" />
       <updated>1679283439459</updated>
     </task>
+<<<<<<<<< Temporary merge branch 1
+    <option name="localTasksCounter" value="33" />
+=========
     <task id="LOCAL-00033" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
-      <created>1679404892927</created>
+      <created>1679287965029</created>
       <option name="number" value="00033" />
       <option name="presentableId" value="LOCAL-00033" />
       <option name="project" value="LOCAL" />
-      <updated>1679404892927</updated>
+      <updated>1679287965029</updated>
     </task>
     <option name="localTasksCounter" value="34" />
+>>>>>>>>> Temporary merge branch 2
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
