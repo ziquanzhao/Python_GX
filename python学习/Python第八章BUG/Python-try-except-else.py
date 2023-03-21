@@ -4,7 +4,7 @@
 try:
     a=int(input('请输入第一个数字：'))
     b=int(input('请输入第二个数字：'))
-    print('结果为：',a/b)
+    print('结果为：', a/b)
 except ZeroDivisionError:
     print('对不起，除数不允许为0')
 except ValueError:
@@ -34,7 +34,7 @@ except ZeroDivisionError:
 except ValueError:
     print('只能输入数字')
 else:
-    print('结果为：',res)
+    print('结果为：', res)
 finally:
     print('无论是否产生异常，都会去执行的代码')  #文件处理时可以用于关闭文件管理器
     print('感谢您的使用')
