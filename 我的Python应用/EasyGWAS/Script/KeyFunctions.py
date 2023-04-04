@@ -7,49 +7,69 @@
 # Software: PyCharm
 
 
+import os
+import wget
+
+
+def folder_exist_setup(folder):
+    if os.path.exists(f'../WorkFile/{folder}'):
+        pass
+    else:
+        os.mkdir(f'../WorkFile/{folder}')
+
+
+def download_software(url, software_name):
+    if os.path.exists(f'../Software'):
+        pass
+    else:
+        os.mkdir(f'../Software')
+    wget.download(url, f"./Software/{software_name}")
+
+
 def assistant_menu():
     pass
 
 
-def original_quality_control():
+def original_quality_control_01():
+    download_software()
+    folder_exist_setup(folder='original_quality_control_01')
+
+
+def build_refseq_index_02():
     pass
 
 
-def build_refseq_index():
+def sam_to_bam_sort_03():
     pass
 
 
-def sam_to_bam_sort():
+def mark_duplications_04():
     pass
 
 
-def mark_duplications():
+def build_bam_index_05():
     pass
 
 
-def build_bam_index():
+def haplotypecaller_06():
     pass
 
 
-def haplotypecaller():
+def gvcf_to_vcf_07():
     pass
 
 
-def gvcf_to_vcf():
+def split_snp_indel_08():
     pass
 
 
-def split_snp_indel():
+def hard_filtration_09():
     pass
 
 
-def hard_filtration():
+def merge_snp_indel_10():
     pass
 
 
-def merge_snp_indel():
-    pass
-
-
-def miss_maf_hardy_filtering():
+def miss_maf_hardy_filtering_11():
     pass

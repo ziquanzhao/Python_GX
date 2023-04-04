@@ -88,27 +88,27 @@ while True:
         elif choose == 1:
             KeyFunctions.assistant_menu()
         elif choose == 2:
-            KeyFunctions.original_quality_control()
+            KeyFunctions.original_quality_control_01()
         elif choose == 3:
-            KeyFunctions.build_refseq_index()
+            KeyFunctions.build_refseq_index_02()
         elif choose == 4:
-            KeyFunctions.sam_to_bam_sort()
+            KeyFunctions.sam_to_bam_sort_03()
         elif choose == 5:
-            KeyFunctions.mark_duplications()
+            KeyFunctions.mark_duplications_04()
         elif choose == 6:
-            KeyFunctions.build_bam_index()
+            KeyFunctions.build_bam_index_05()
         elif choose == 7:
-            KeyFunctions.haplotypecaller()
+            KeyFunctions.haplotypecaller_06()
         elif choose == 8:
-            KeyFunctions.gvcf_to_vcf()
+            KeyFunctions.gvcf_to_vcf_07()
         elif choose == 9:
-            KeyFunctions.split_snp_indel()
+            KeyFunctions.split_snp_indel_08()
         elif choose == 10:
-            KeyFunctions.hard_filtration()
+            KeyFunctions.hard_filtration_09()
         elif choose == 11:
-            KeyFunctions.merge_snp_indel()
+            KeyFunctions.merge_snp_indel_10()
         elif choose == 12:
-            KeyFunctions.miss_maf_hardy_filtering()
+            KeyFunctions.miss_maf_hardy_filtering_11()
     except ValueError:
         print("\033[1;36mError! You have not entered a number, please enter a numeric number!\033[0m")
         print("")
