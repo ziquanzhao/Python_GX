@@ -7,7 +7,7 @@ import re
 print('\033[0;36m请确保重测序原始的文件命名规则符合：样本ID_R1(R2).fq.gz,如不符合，请在utf-8格式下修改python脚本代码\033[m')
 
 if os.path.exists('trimmomatic'):
-    print('已存在trimmomatic目录，无需创建')
+    print('已存在目录，无需创建')
 else:
     os.mkdir('trimmomatic')
 
