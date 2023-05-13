@@ -78,18 +78,18 @@ def choose(shell_filepath):
 def software_menu():
     print("")
     print("")
-    print("=====================================================================")
-    print("===========================\033[0m\033[1;36mSoftware Menu\033[0m=============================")
-    print("")
-    print(" 0. Exit download (If not exited, please try several times!)")
-    print(" 1. Trimmomatic-0.39")
-    print(" 2. Bwa-0.7.17")
-    print(" 3. Samtools-1.15.1")
-    print(" 4. Gatk-4.4.0.0")
-    print(" 5. Picard-3.0.0")
-    print(" 6. Plink-2")
-    print("")
-    print("=====================================================================")
+    print("\033[1;31m===========================\033[0m\033[0m\033[1;36mSoftware Menu\033[0m\033[1;31m=============================\033[0m")
+    print("\033[1;31m==\033[0m 0. Exit download (If not exited, please try several times!)       \033[1;31m==\033[0m")
+    print("\033[1;31m==\033[0m 1. Trimmomatic-0.39                                               \033[1;31m==\033[0m")
+    print("\033[1;31m==\033[0m 2. Bwa-0.7.17                                                     \033[1;31m==\033[0m")
+    print("\033[1;31m==\033[0m 3. Samtools-1.15.1                                                \033[1;31m==\033[0m")
+    print("\033[1;31m==\033[0m 4. Gatk-4.4.0.0                                                   \033[1;31m==\033[0m")
+    print("\033[1;31m==\033[0m 5. Picard-3.0.0                                                   \033[1;31m==\033[0m")
+    print("\033[1;31m==\033[0m 6. Plink-2                                                        \033[1;31m==\033[0m")
+    print("\033[1;31m==\033[0m 7. Fastqc-0.12.1                                                  \033[1;31m==\033[0m")
+    print("\033[1;31m==\033[0m 8. Bcftools-1.17                                                  \033[1;31m==\033[0m")
+    print("\033[1;31m==\033[0m 9. Tassel-5                                                       \033[1;31m==\033[0m")
+    print("\033[1;31m=====================================================================\033[0m")
 
 
 def software_download_menu():
@@ -155,14 +155,63 @@ def software_download_menu():
                     print('')
                     print("\033[1;36mThe Plink2 software package is relatively large. Please download it by yourself according to the link provided below. Please put the file in the' ../software/Plink-2' directory after downloading.\033[0m")
                     print('\033[1;31mhttps://drive.google.com/file/d/1pWYVje3N5w0bIp2OiHqzlbZ_X2vLAGpM/view\033[0m')
+            elif answer == '7':
+                if os.path.exists(f'{WorkPath}/Software/Fastqc-0.12.1-main'):
+                    print("\033[1;31mThe 'Fastqc-0.12.1-main' folder already exists in the 'Workfile' directory. I think you have successfully installed the 'Fastqc-0.12.1' software, so this step is skipped.\033[0m")
+                    print("\033[1;31mIf you are sure that 'Fastqc-0.12.1' software is not installed, please delete the 'Fastqc-0.12.1-main' folder and the 'Fastqc-0.12.1.zip' compressed package and perform this step again.\033[0m")
+                    pass
+                else:
+                    your_url_07 = 'https://codeload.github.com/ziquanzhao/Fastqc-0.12.1/zip/refs/heads/main'
+                    download_software(url=your_url_07, software_name='Fastqc-0.12.1')
+            elif answer == '8':
+                if os.path.exists(''):
+                    print("\033[1;31mThe 'Bcftool-1.17-main' folder already exists in the 'Workfile' directory. I think you have successfully installed the 'Bcftool-1.17' software, so this step is skipped.\033[0m")
+                    print("\033[1;31mIf you are sure that 'Bcftool-1.17' software is not installed, please delete the 'Fastqc-0.12.1-main' folder and the 'Bcftool-1.17.zip' compressed package and perform this step again.\033[0m")
+                    pass
+                else:
+                    your_url_08 = 'https://codeload.github.com/ziquanzhao/Bcftools-1.17/zip/refs/heads/main'
+                    download_software(url=your_url_08, software_name='Bcftool-1.17')
+            elif answer == '9':
+                if os.path.exists(''):
+                    print("\033[1;31mThe 'Tassel-5-main' folder already exists in the 'Workfile' directory. I think you have successfully installed the 'Tassel-5' software, so this step is skipped.\033[0m")
+                    print("\033[1;31mIf you are sure that 'Tassel-5' software is not installed, please delete the 'Fastqc-0.12.1-main' folder and the 'Tassel-5.zip' compressed package and perform this step again.\033[0m")
+                    pass
+                else:
+                    your_url_09 = 'https://codeload.github.com/ziquanzhao/Tassel-5/zip/refs/heads/main'
+                    download_software(url=your_url_09, software_name='Tassel-5')
             else:
                 print("")
-                raise Exception("\033[1;36mYou can only select one character from '0/1/2/3/4/5/6' and cannot enter other characters.\033[0m")
+                raise Exception("\033[1;36mYou can only select one character from '0/1/2/3/4/5/6/7/8/9' and cannot enter other characters.\033[0m")
         except Exception as Error:
             print(Error)
             print('\033[1;36mAn unknown error has occurred, please contact the author to solve it!\033[m')
         else:
             software_download_menu()
+
+
+def check_resequencing_quality_13(fq_data_filename, threads=8):
+    """
+
+    :param threads: 线程数
+    :param fq_data_filename:重测序数据的绝对路径，注意符合命名规范。XXX_R1.fq.gz和XXX_R2.fq.gz
+    -o --outdir FastQC生成的报告文件的储存路径
+    --extract 结果文件解压缩
+    --noextract 结果文件压缩
+    -t --threads 选择程序运行的线程数，每个线程会占用250MB内存，越多越快咯
+    -c --contaminants 污染物选项，输入的是一个文件，格式是Name [Tab] Sequence，里面是可能的污染序列，如果有这个选项，FastQC会在计算时候评估污染的情况，并在统计的时候进行分析，一般用不到
+    -a --adapters 也是输入一个文件，文件的格式Name [Tab] Sequence，储存的是测序的adpater序列信息，如果不输入，目前版本的FastQC就按照通用引物来评估序列时候有adapter的残留
+    -q --quiet 安静运行模式，一般不选这个选项的时候，程序会实时报告运行的状况。
+    """
+    folder_exist_setup(folder='check_resequencing_quality_13')
+    with open(f'{WorkPath}/WorkFile/check_resequencing_quality_13/check_resequencing_quality_13.sh', 'w') as check_reseq_quality:
+        check_reseq_quality.write('#!/bin/bash\n')
+        for filename in os.listdir(fq_data_filename):
+            if '_R1.fq.gz' in filename:
+                filename = re.sub('_R1.fq.gz', '', filename)
+                check_reseq_quality.write(f'{WorkPath}/Software/Fastqc-0.12.1-main/fastqc  -t {threads} {fq_data_filename}{filename}_R1.fq.gz {fq_data_filename}{filename}_R2.fq.gz -o {WorkPath}/WorkFile/check_resequencing_quality_13/\n')
+    choose(shell_filepath='check_resequencing_quality_13')
+    print('\033[1;31mPlease carefully review the results, which will be an important basis for parameter setting of raw data filtering in the next step!\033[m')
+    print("\033[1;31mIt's very important, please take it seriously!\033[m")
 
 
 def original_quality_control_01(fq_data_filename, sequencing_mode='PE', threads=8, base_quality_coding_format='-phred33', illuminaclip='TruSeq3-PE.fa:2:30:10:2:true', slidingwindow='4:15', leading=3, trailing=3, minlen=36, headcrop=5):
@@ -198,7 +247,7 @@ def original_quality_control_01(fq_data_filename, sequencing_mode='PE', threads=
             if '_R1.fq.gz' in filename:
                 filename = re.sub('_R1.fq.gz', '', filename)
                 trim.write(
-                    f'java -jar {WorkPath}/Software/Trimmomatic-0.39-main/trimmomatic-0.39.jar {sequencing_mode} -threads {threads} {base_quality_coding_format} {fq_data_filename}{filename}_R1.fq.gz {fq_data_filename}{filename}_R2.fq.gz -baseout ../WorkFile/original_quality_control_01/{filename}.fq.gz ILLUMINACLIP:../Software/Trimmomatic-0.39-main/adapters/{illuminaclip} SLIDINGWINDOW:{slidingwindow} LEADING:{leading} TRAILING:{trailing} MINLEN:{minlen} HEADCROP:{headcrop}\n')
+                    f'java -jar {WorkPath}/Software/Trimmomatic-0.39-main/trimmomatic-0.39.jar {sequencing_mode} -threads {threads} {base_quality_coding_format} {fq_data_filename}{filename}_R1.fq.gz {fq_data_filename}{filename}_R2.fq.gz -baseout {WorkPath}/WorkFile/original_quality_control_01/{filename}.fq.gz ILLUMINACLIP:{WorkPath}/Software/Trimmomatic-0.39-main/adapters/{illuminaclip} SLIDINGWINDOW:{slidingwindow} LEADING:{leading} TRAILING:{trailing} MINLEN:{minlen} HEADCROP:{headcrop}\n')
     choose(shell_filepath='original_quality_control_01')
 
 
@@ -307,13 +356,250 @@ def split_snp_indel_08():
     choose(shell_filepath='split_snp_indel_08')
 
 
-def hard_filtration_09():
-    pass
+def density_plot(plotfilename):
+    plotfilenameid = re.sub('.recode.table', '', plotfilename)
+    with open(f'{WorkPath}/WorkFile/check_snp_indel_quality_14/densityplot.r', 'a') as density:
+        density.write(f"pdf(file = '{WorkPath}/WorkFile/check_snp_indel_quality_14/{plotfilename}.pdf', width = 16, height = 3)\n")
+        density.write("par(mfrow = c(1,5))\n")
+        density.write(f"filetest <- read.table(file = '{WorkPath}/WorkFile/check_snp_indel_quality_14/{plotfilename}', header = T)\n")
+        density.write("filetest <- filetest[complete.cases(filetest),]\n")
+        density.write("col_name <- colnames(filetest)\n")
+        density.write("for (i in seq(1,length(colnames(filetest)))) {\n")
+        density.write(f"  plot(density(filetest[,i]), col = 'red', main = paste('{plotfilenameid}', col_name[i], sep = '-'), xlab = '')\n")
+        density.write("}\n")
+        density.write("dev.off()\n")
+        density.write("\n")
+
+
+def check_snp_indel_quality_14():
+    folder_exist_setup(folder='check_snp_indel_quality_14')
+    with open(f'{WorkPath}/WorkFile/check_snp_indel_quality_14/check_snp_indel_quality_14.sh', 'w') as check_snpindel_quality:
+        check_snpindel_quality.write('#!/bin/bash\n')
+        for filename in os.listdir(f'{WorkPath}/WorkFile/split_snp_indel_08'):
+            if '_snp.vcf' in filename and '.idx' not in filename:
+                filename = re.sub('_snp.vcf', '', filename)
+                check_snpindel_quality.write(f'java -jar {WorkPath}/Software/Gatk-4.4.0.0-main/gatk-package-4.4.0.0-local.jar VariantsToTable -V {WorkPath}/WorkFile/split_snp_indel_08/{filename}_snp.vcf -F QD -F QUAL -F SOR -F FS -F MQ -O {WorkPath}/WorkFile/check_snp_indel_quality_14/{filename}_snp.recode.table\n')
+                check_snpindel_quality.write(f'java -jar {WorkPath}/Software/Gatk-4.4.0.0-main/gatk-package-4.4.0.0-local.jar VariantsToTable -V {WorkPath}/WorkFile/split_snp_indel_08/{filename}_indel.vcf -F QD -F QUAL -F SOR -F FS -F MQ -O {WorkPath}/WorkFile/check_snp_indel_quality_14/{filename}_indel.recode.table\n')
+    choose(shell_filepath='check_snp_indel_quality_14')
+    print("")
+    print('\033[1;36mThe data you need is already in the corresponding folder. But simple data are obscure.\033[m')
+    print('\033[1;36mI can help you display them graphically. Do you need this? \033[m')
+    answer = input('\033[1;36mIf necessary, please enter: y/Y/yes/YES; If not, please enter: n/y/no/no. ：\033[m')
+    print("")
+    try:
+        if answer == 'y' or answer == 'Y' or answer == 'yes' or answer == 'YES':
+            if os.path.exists(f'{WorkPath}/WorkFile/check_snp_indel_quality_14/densityplot.r'):
+                os.system(f'rm {WorkPath}/WorkFile/check_snp_indel_quality_14/densityplot.r')
+            else:
+                pass
+            for filename in os.listdir(f'{WorkPath}/WorkFile/check_snp_indel_quality_14'):
+                if '.recode.table' in filename and '.pdf' not in filename:
+                    density_plot(plotfilename=filename)
+            print("")
+            print("\033[1;31mR script is written, do you want to execute it directly? \033[m")
+            youranswer = input("\033[1;31mIf it needs to be executed immediately, please enter: 1; If you don't want to execute it immediately, please enter: 2. :\033[m")
+            if youranswer == '1':
+                print("")
+                print("\033[1;36mStart drawing, please wait a moment...\033[m")
+                os.system(f"Rscript {WorkPath}/WorkFile/check_snp_indel_quality_14/densityplot.r")
+                print(f"\033[1;36mThe drawing has been completed, please go to the '{WorkPath}/WorkFile/check_snp_indel_quality_14/' directory to view it.\033[m")
+            elif youranswer == '2':
+                print("")
+                print(f"\033[1;36mThe R script is in the '{WorkPath}/WorkFile/check_snp_indel_quality_14/' directory. You can check it and execute it.\033[m")
+        elif answer == 'n' or answer == 'N' or answer == 'no' or answer == 'NO':
+            pass
+        else:
+            print("")
+            raise Exception("\033[1;36mYou can only select one character from 'y/Y/yes/YES/n/y/no/no' and cannot enter other characters.\033[0m")
+    except Exception as Error:
+        print(Error)
+
+
+def hard_filtration_09(snp_qd_filter=2.0, snp_qd_filtername='QD2', snp_sor_filter=3.0, snp_sor_filtername='SOR3', snp_fs_filter=30.0, snp_fs_filtername='FS30', snp_mq_filter=50.0, snp_mq_filtername='MQ50', indel_qd_filter=2.0, indel_qd_filtername='QD2', indel_sor_filter=5.0, indel_sor_filtername='SOR5', indel_fs_filter=50.0, indel_fs_filtername='FS50', indel_mq_filter=50.0, indel_mq_filtername='MQ50'):
+    """
+
+    :param snp_qd_filter:
+    :param snp_qd_filtername:
+    :param snp_sor_filter:
+    :param snp_sor_filtername:
+    :param snp_fs_filter:
+    :param snp_fs_filtername:
+    :param snp_mq_filter:
+    :param snp_mq_filtername:
+    :param indel_qd_filter:
+    :param indel_qd_filtername:
+    :param indel_sor_filter:
+    :param indel_sor_filtername:
+    :param indel_fs_filter:
+    :param indel_fs_filtername:
+    :param indel_mq_filter:
+    :param indel_mq_filtername:
+    具体参照如下解释
+    https://zhuanlan.zhihu.com/p/34878471
+    https://gatk.broadinstitute.org/hc/en-us/articles/360035890471-Hard-filtering-germline-short-variants
+    """
+    folder_exist_setup(folder='hard_filtration_09')
+    with open(f'{WorkPath}/WorkFile/hard_filtration_09/hard_filtration_09.sh', 'w') as hardFilter:
+        hardFilter.write('#!/bin/bash\n')
+        for filename in os.listdir(f'{WorkPath}/WorkFile/split_snp_indel_08'):
+            if 'snp' in filename and '.vcf' in filename and '.idx' not in filename:
+                filename = re.sub('.vcf', '', filename)
+                hardFilter.write(f'java -jar {WorkPath}/Software/Gatk-4.4.0.0-main/gatk-package-4.4.0.0-local.jar VariantFiltration -V {WorkPath}/WorkFile/split_snp_indel_08/{filename}.vcf -R {WorkPath}/WorkFile/build_refseq_index_02/YourReferenceGenome.fasta '
+                                 f'-filter "QD < {snp_qd_filter}" --filter-name "{snp_qd_filtername}" '
+                                 f'-filter "SOR > {snp_sor_filter}" --filter-name "{snp_sor_filtername}" '
+                                 f'-filter "FS > {snp_fs_filter}" --filter-name "{snp_fs_filtername}" '
+                                 f'-filter "MQ < {snp_mq_filter}" --filter-name "{snp_mq_filtername}" '
+                                 f'--cluster-window-size 10 --cluster-size 3 -O {WorkPath}/WorkFile/hard_filtration_09/{filename}_filter.vcf\n')
+                hardFilter.write(f'grep -E \'#|PASS\' {WorkPath}/WorkFile/hard_filtration_09/{filename}_filter.vcf > {WorkPath}/WorkFile/hard_filtration_09/{filename}_pass.vcf\n')
+            elif 'indel' in filename and '.vcf' in filename and '.idx' not in filename:
+                filename = re.sub('.vcf', '', filename)
+                hardFilter.write(f'java -jar {WorkPath}/Software/Gatk-4.4.0.0-main/gatk-package-4.4.0.0-local.jar VariantFiltration -V {WorkPath}/WorkFile/split_snp_indel_08/{filename}.vcf -R {WorkPath}/WorkFile/build_refseq_index_02/YourReferenceGenome.fasta '
+                                 f'-filter "QD < {indel_qd_filter}" --filter-name "{indel_qd_filtername}" '
+                                 f'-filter "SOR > {indel_sor_filter}" --filter-name "{indel_sor_filtername}" '
+                                 f'-filter "FS > {indel_fs_filter}" --filter-name "{indel_fs_filtername}" '
+                                 f'-filter "MQ < {indel_mq_filter}" --filter-name "{indel_mq_filtername}" '
+                                 f'-O {WorkPath}/WorkFile/hard_filtration_09/{filename}_filter.vcf\n')
+                hardFilter.write(f'grep -E \'#|PASS\' {WorkPath}/WorkFile/hard_filtration_09/{filename}_filter.vcf > {WorkPath}/WorkFile/hard_filtration_09/{filename}_pass.vcf\n')
+    choose(shell_filepath='hard_filtration_09')
 
 
 def merge_snp_indel_10():
-    pass
+    folder_exist_setup(folder='merge_snp_indel_10')
+    with open(f'{WorkPath}/WorkFile/merge_snp_indel_10/merge_snp_indel_10.sh', 'w') as mergeSnpIndel:
+        mergeSnpIndel.write('#!/bin/bash\n')
+        for filename in os.listdir(f'{WorkPath}/WorkFile/hard_filtration_09'):
+            if '_snp_pass.vcf' in filename and '.idx' not in filename:
+                filename = re.sub('_snp_pass.vcf', '', filename)
+                mergeSnpIndel.write(f'java -jar {WorkPath}/Software/Gatk-4.4.0.0-main/gatk-package-4.4.0.0-local.jar MergeVcfs -I {WorkPath}/WorkFile/hard_filtration_09/{filename}_snp_pass.vcf -I {WorkPath}/WorkFile/hard_filtration_09/{filename}_indel_pass.vcf -O {WorkPath}/WorkFile/merge_snp_indel_10/{filename}_HardFilter.vcf.gz\n')
+    choose(shell_filepath='merge_snp_indel_10')
 
 
-def miss_maf_hardy_filtering_11():
-    pass
+def gvcfmerge():
+    gzvcf = []
+    for i in os.listdir(f'{WorkPath}/WorkFile/merge_snp_indel_10'):
+        if '_HardFilter.vcf.gz' in i and '.tbi' not in i:
+            gzvcf.append(f'{WorkPath}/WorkFile/merge_snp_indel_10/{i}')
+    gzvcf = ' '.join(gzvcf)
+    with open(f'{WorkPath}/WorkFile/merge_snp_indel_10/gvcfmerge.sh', 'w') as vcf:
+        vcf.write(f'{WorkPath}/Software/Bcftools-1.17-main/bcftools concat {gzvcf} -o {WorkPath}/WorkFile/merge_snp_indel_10/AllSample.vcf.gz')
+    os.system(f'bash {WorkPath}/WorkFile/merge_snp_indel_10/gvcfmerge.sh')
+
+
+def miss_maf_hardy_filtering_11(geno=0.1, maf=0.05, hwe=1e-6, vcf_max_dp=50, vcf_min_dp=4, vcf_min_gq=10, min_alleles=2, max_alleles=2, var_min_qual=30):
+    """
+    --geno 0.1 --mind 0.1 --maf 0.01 --hwe 1e-4,这根据13_Missing_rate_statistics.py绘图结果设置。GWAS项目采用的MAF阈值在0.01-0.05之间，取决于样本大小.
+    我们的数据缺失率很严重，所以--geno，--mind要尽量宽松一些
+    --allow-extra-chr,如果染色体是非数字，加上这个参数。
+    :param geno:
+    :param maf:
+    :param hwe:
+    :param vcf_max_dp: --vcf-max-dp 50 --vcf-min-dp 4.位点最大深度50，最小深度4.一般来说，最下深度是平均深度的三分之一到四分之一。最大深度是平均深度的3到5倍。
+    :param vcf_min_dp:
+    :param vcf_min_gq: QG也是一个衡量质量的指标，看情况设置吧。
+    :param min_alleles: --min-alleles 2 --max-alleles 2。只要双等位基因的情况，多等位基因不要，单等位基因也不要。
+    :param max_alleles:
+    :param var_min_qual:过滤掉QUAL小于30的。GATK时也可以做
+    """
+    folder_exist_setup(folder='miss_maf_hardy_filtering_11')
+    with open(f'{WorkPath}/WorkFile/miss_maf_hardy_filtering_11/miss_maf_hardy_filtering_11.sh', 'w') as missMafHardy:
+        missMafHardy.write('#!/bin/bash\n')
+        missMafHardy.write(f'{WorkPath}/Software/Plink-2-main/plink2 --vcf {WorkPath}/WorkFile/merge_snp_indel_10/AllSample.vcf.gz --export vcf --allow-extra-chr '
+                           f'--geno {geno} --maf {maf} --hwe {hwe} '
+                           f'--vcf-max-dp {vcf_max_dp} --vcf-min-dp {vcf_min_dp} --vcf-min-gq {vcf_min_gq} '
+                           f'--min-alleles {min_alleles} --max-alleles {max_alleles} --var-min-qual {var_min_qual} --out {WorkPath}/WorkFile/miss_maf_hardy_filtering_11/ALLSample_FinalReasult --threads 8\n')
+    choose(shell_filepath='miss_maf_hardy_filtering_11')
+
+
+def miss_maf_hardy_statistics_15():
+    folder_exist_setup(folder='miss_maf_hardy_filtering_11')
+    with open(f'{WorkPath}/WorkFile/miss_maf_hardy_filtering_11/miss_maf_hardy_statistics_15.sh', 'w') as mmh_statistics:
+        mmh_statistics.write('#!/bin/bash\n')
+        mmh_statistics.write(f'{WorkPath}/Software/Plink-2-main/plink2 --vcf {WorkPath}/WorkFile/merge_snp_indel_10/AllSample.vcf.gz --allow-extra-chr --make-bed --max-alleles 2 --out {WorkPath}/WorkFile/miss_maf_hardy_filtering_11/AllSample_statistics --threads 8\n')
+        mmh_statistics.write(f'{WorkPath}/Software/Plink-2-main/plink2 -bfile {WorkPath}/WorkFile/miss_maf_hardy_filtering_11/AllSample_statistics --missing --out {WorkPath}/WorkFile/miss_maf_hardy_filtering_11/AllSample_statistics --allow-extra-chr --threads 8\n')
+        mmh_statistics.write(f'{WorkPath}/Software/Plink-2-main/plink2 -bfile {WorkPath}/WorkFile/miss_maf_hardy_filtering_11/AllSample_statistics --freq --out {WorkPath}/WorkFile/miss_maf_hardy_filtering_11/AllSample_statistics --allow-extra-chr --threads 8\n')
+        mmh_statistics.write(f'{WorkPath}/Software/Plink-2-main/plink2 -bfile {WorkPath}/WorkFile/miss_maf_hardy_filtering_11/AllSample_statistics --hardy --out {WorkPath}/WorkFile/miss_maf_hardy_filtering_11/AllSample_statistics --allow-extra-chr --threads 8\n')
+    print('')
+    print(f"\033[1;31m  In the 'WorkFile/miss_maf_hardy_filtering_11/' directory, there is a shell script called 'miss_maf_hardy_statistics_15.sh', which contains all the codes to perform this step.\033[m")
+    print("\033[1;31mYou can check whether it meets your requirements. Of course, you can also do it immediately without checking it.\033[m")
+    print("\033[1;36mIf you don't want to execute it immediately, please enter: 1.\033[m")
+    print("\033[1;36mIf you want to execute in the foreground immediately, please enter: 2.\033[m")
+    answer = input("\033[1;36mIf you want to execute in the background immediately, please enter: 3.  :\033[m")
+    try:
+        if answer == '1':
+            print('')
+            print('')
+            print('\033[1;36mOk, just use the "bash XXX.sh" command directly after checking.\033[m')
+        elif answer == '2':
+            print('')
+            print('')
+            print('Running...')
+            print('')
+            os.system(f'bash {WorkPath}/WorkFile/miss_maf_hardy_filtering_11/miss_maf_hardy_statistics_15.sh')
+            print('')
+            print('Run completed')
+        elif answer == '3':
+            print('')
+            print('')
+            print('Running in the background...')
+            os.system(
+                f'nohup bash {WorkPath}/WorkFile/miss_maf_hardy_filtering_11/miss_maf_hardy_statistics_15.sh >> {WorkPath}/WorkFile/miss_maf_hardy_filtering_11/miss_maf_hardy_statistics_15.log 2>&1 &')
+        else:
+            print("")
+            raise Exception("\033[1;36mYou can only select one character from '1/2/3' and cannot enter other characters.\033[0m")
+    except Exception as Error:
+        print(Error)
+        print('\033[1;36mOk, just use the "bash XXX.sh" command directly after checking.\033[m')
+    print("")
+    print('\033[1;36mThe data you need is already in the corresponding folder. But simple data are obscure.\033[m')
+    print('\033[1;36mI can help you display them graphically. Do you need this? \033[m')
+    answer = input('\033[1;36mIf necessary, please enter: y/Y/yes/YES; If not, please enter: n/y/no/no. ：\033[m')
+    print("")
+    try:
+        if answer == 'y' or answer == 'Y' or answer == 'yes' or answer == 'YES':
+            if os.path.exists(f'{WorkPath}/WorkFile/miss_maf_hardy_filtering_11/miss_maf_hardy_statistics_15.r'):
+                os.system(f'rm {WorkPath}/WorkFile/miss_maf_hardy_filtering_11/miss_maf_hardy_statistics_15.r')
+            else:
+                pass
+            miss_maf_hard_statistics_plot()
+            print("")
+            print("\033[1;31mR script is written, do you want to execute it directly? \033[m")
+            youranswer = input("\033[1;31mIf it needs to be executed immediately, please enter: 1; If you don't want to execute it immediately, please enter: 2. :\033[m")
+            if youranswer == '1':
+                print("")
+                print("\033[1;36mStart drawing, please wait a moment...\033[m")
+                os.system(f"Rscript {WorkPath}/WorkFile/miss_maf_hardy_filtering_11/miss_maf_hardy_statistics_15.r")
+                print(f"\033[1;36mThe drawing has been completed, please go to the '{WorkPath}/WorkFile/miss_maf_hardy_filtering_11/miss_maf_hardy.pdf' file to view it.\033[m")
+                print("\033[1;36mIt will be an important sentence for you to set the 'miss_maf_hardy_filtering' filter parameters in the next step.\033[m")
+            elif youranswer == '2':
+                print("")
+                print(f"\033[1;36mThe R script is in the '{WorkPath}/WorkFile/miss_maf_hardy_filtering_11/' directory. You can check it and execute it.\033[m")
+        elif answer == 'n' or answer == 'N' or answer == 'no' or answer == 'NO':
+            pass
+        else:
+            print("")
+            raise Exception("\033[1;36mYou can only select one character from 'y/Y/yes/YES/n/y/no/no' and cannot enter other characters.\033[0m")
+    except Exception as Error:
+        print(Error)
+
+
+def miss_maf_hard_statistics_plot():
+    with open(f'{WorkPath}/WorkFile/miss_maf_hardy_filtering_11/miss_maf_hardy_statistics_15.r', 'w') as statisticsplot:
+        statisticsplot.write(f"vmiss <- read.table('{WorkPath}/WorkFile/miss_maf_hardy_filtering_11/AllSample_statistics.vmiss', header = T)\n")
+        statisticsplot.write(f"smiss <- read.table('{WorkPath}/WorkFile/miss_maf_hardy_filtering_11/AllSample_statistics.smiss', header = T)\n")
+        statisticsplot.write(f"maf <- read.table('{WorkPath}/WorkFile/miss_maf_hardy_filtering_11/AllSample_statistics.afreq', header = T, as.is = T)\n")
+        statisticsplot.write(f"hardy <- read.table('{WorkPath}/WorkFile/miss_maf_hardy_filtering_11/AllSample_statistics.hardy', header = T)\n")
+        statisticsplot.write(f"pdf(file = '{WorkPath}/WorkFile/miss_maf_hardy_filtering_11/miss_maf_hardy.pdf', width = 12, height = 3)\n")
+        statisticsplot.write("par(mfrow = c(1,4))\n")
+        statisticsplot.write("hist(smiss[,5], main = 'IndividualMissingness', xlab = '', col = 'red')\n")
+        statisticsplot.write("hist(vmiss[,5], main = 'GeneMissingness', xlab = '', col = 'red')\n")
+        statisticsplot.write("hist(maf[,5], main = 'Maf', xlab = '', col = 'red')\n")
+        statisticsplot.write("hist(hardy[,10], main = 'Hardy', xlab = '', col = 'red')\n")
+        statisticsplot.write("dev.off()\n")
+
+
+def vcf_to_hapmap_16():
+    folder_exist_setup(folder='vcf_to_hapmap_16')
+    with open(f'{WorkPath}/WorkFile/vcf_to_hapmap_16/vcf_to_hapmap_16.sh', 'w') as vcf_to_hapmap:
+        vcf_to_hapmap.write('#!/bin/bash\n')
+        vcf_to_hapmap.write(f"{WorkPath}/Software/Tassel-5-main/run_pipeline.pl -Xms10g -Xmx20g -vcf {WorkPath}/WorkFile/miss_maf_hardy_filtering_11/ALLSample_FinalReasult.vcf -sortPositions -export {WorkPath}/WorkFile/vcf_to_hapmap_16/ALLSample_FinalReasult -exportType HapmapDiploid")
+    choose(shell_filepath='vcf_to_hapmap_16')
