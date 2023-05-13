@@ -5,10 +5,9 @@
 # 邮箱:2939818719@qq.com
 import os
 import re
+import wget
+
+wget.download('https://codeload.github.com/ziquanzhao/Fastqc-0.12.1/zip/refs/heads/main')
 
 
-a = []
-for i in os.listdir('./'):
-    if '.fq.gz' in i:
-        a.append(f'-V /Script/{i}')
-print(a)
+

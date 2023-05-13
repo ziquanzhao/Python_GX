@@ -28,6 +28,7 @@ def main_menu():
     print("\033[1;31m=====================================\033[0m\033[0m\033[1;36mMain Menu\033[0m\033[1;31m=====================================\033[0m")
     print("\033[1;31m==\033[0m 0. Exit script                                                                \033[1;31m==\033[0m")
     print("\033[1;31m==\033[0m 1. Download the necessary software for genome-wide association analysis       \033[1;31m==\033[0m")
+    print("\033[1;31m==\033[0m 13. FastQC software to check the quality of resequenced data                  \033[1;31m==\033[0m")
     print("\033[1;31m==\033[0m 2. Filtering the raw resequencing data                                        \033[1;31m==\033[0m")
     print("\033[1;31m==\033[0m 3. Building reference genome index                                            \033[1;31m==\033[0m")
     print("\033[1;31m==\033[0m 4. Conversion and sorting of Sam and Bam formats                              \033[1;31m==\033[0m")
@@ -36,9 +37,12 @@ def main_menu():
     print("\033[1;31m==\033[0m 7. Searching for SNP and INDEL variants                                       \033[1;31m==\033[0m")
     print("\033[1;31m==\033[0m 8. Conversion of gvcf and vcf file formats                                    \033[1;31m==\033[0m")
     print("\033[1;31m==\033[0m 9. Splitting SNP and INDEL variants                                           \033[1;31m==\033[0m")
+    print("\033[1;31m==\033[0m 14. Check SNP and INDEL data quality                                          \033[1;31m==\033[0m")
     print("\033[1;31m==\033[0m 10. Filtering low quality SNP and INDEL                                       \033[1;31m==\033[0m")
     print("\033[1;31m==\033[0m 11. Merge filtered SNP and INDEL                                              \033[1;31m==\033[0m")
+    print("\033[1;31m==\033[0m 15. Missing rate, minimum allele frequency and Harwin equilibrium statistics  \033[1;31m==\033[0m")
     print("\033[1;31m==\033[0m 12. Missing rate, minimum allele frequency and Harwin equilibrium filtering   \033[1;31m==\033[0m")
+    print("\033[1;31m==\033[0m 16. Vcf format file to Hapmap format file                                     \033[1;31m==\033[0m")
     print("\033[1;31m===================================================================================\033[0m")
 
 
@@ -62,7 +66,6 @@ while True:
         if answer == "y" or answer == "Y" or answer == "yes" or answer == "YES":
             print('')
             print('')
-            print('\033[1;31m==================================================================================================================================\033[0m')
             print('\033[1;31m====================================================\033[0m\033[1;36mDescriptionDocument\033[0m\033[1;31m===========================================================\033[0m')
             print('\033[1;31m==\033[0m  1.Please install Java (version 17 and above), python (version 3.7 and above), R (version 4.0 and above) before use.         \033[1;31m==\033[0m')
             print('\033[1;31m==\033[0m  2.Please pay attention to the ID naming rules of chromosomes in your reference genome. For example, "Lachesis_group".       \033[1;31m==\033[0m')
@@ -133,8 +136,27 @@ while True:
             KeyFunctions.hard_filtration_09()
         elif choose == 11:
             KeyFunctions.merge_snp_indel_10()
+            KeyFunctions.gvcfmerge()
         elif choose == 12:
             KeyFunctions.miss_maf_hardy_filtering_11()
+        elif choose == 13:
+            fq_data_filename = input("\033[1;31mOk, now please tell me the absolute path of your resequencing data. For example: /mnt/e/Python/ (Be sure to pay attention to the last '/'symbol.): \033[0m")
+            KeyFunctions.check_resequencing_quality_13(fq_data_filename=fq_data_filename)
+        elif choose == 14:
+            KeyFunctions.check_snp_indel_quality_14()
+        elif choose == 15:
+            KeyFunctions.miss_maf_hardy_statistics_15()
+        elif choose == 16:
+            KeyFunctions.vcf_to_hapmap_16()
+            print("")
+            PATH = KeyFunctions.WorkPath
+            print("\033[1;36m===============================================================================\033[0m")
+            print("\033[1;36m==\033[0m    \033[1;31m========   ==   ========   ==   ========   ==    ==            ==   \033[0m   \033[1;36m==\033[0m")
+            print("\033[1;36m==\033[0m    \033[1;31m==              ==    ==        ==         ==    ==           ===   \033[0m   \033[1;36m==\033[0m")
+            print("\033[1;36m==\033[0m    \033[1;31m======     ==   ==    ==   ==   ========   ========      ======   ==\033[0m   \033[1;36m==\033[0m")
+            print("\033[1;36m==\033[0m    \033[1;31m==         ==   ==    ==   ==         ==   ==    ==      ======   ==\033[0m   \033[1;36m==\033[0m")
+            print("\033[1;36m==\033[0m    \033[1;31m==         ==   ==    ==   ==   ========   ==    ==      ===========\033[0m   \033[1;36m==\033[0m")
+            print("\033[1;36m===============================================================================\033[0m")
         else:
             print('\033[1;36mThe number you entered is not a list number.\033[0m')
     except ValueError:
