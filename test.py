@@ -3,11 +3,10 @@
 # 编写人：赵子权
 # 编写时间：2022/4/30 19:55
 # 邮箱:2939818719@qq.com
-import os
-import re
-import wget
-
-wget.download('https://codeload.github.com/ziquanzhao/Fastqc-0.12.1/zip/refs/heads/main')
+de ='$2="";$5="";'
+de = f'{de}print $0'
+de = {de}
+print(f'\'{de}\'')
 
 
 

@@ -32,7 +32,7 @@ def download_software(url, software_name):
         os.mkdir(f'{WorkPath}/Software')
     print('\033[1;36mDownloading...\033[0m')
     wget.download(url, f"{WorkPath}/Software/{software_name}.zip")
-    print('\033[1;36mDownload completed!\033[0m')
+    print('\033[1;36m\nDownload completed!\033[0m')
     print('')
     print('\033[1;36mUnpacking and installing...\033[0m')
     os.system(f'unzip -d {WorkPath}/Software/ {WorkPath}/Software/{software_name}.zip')
