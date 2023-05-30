@@ -1,8 +1,10 @@
-#! /usr/bin/python3
-# coding=utf-8
-# 编写人：赵子权
-# 编写时间：2022/4/30 19:55
-# 邮箱:2939818719@qq.com
+#! /usr/bin/python
+# _*_ coding: utf-8 _*_
+# Author: 29398(赵子权)
+# FileName: GTF_TO_GFF.py
+# Time: 2023/5/31 12:18   
+# Email: zzq@caf.ac.cn
+# Software: PyCharm
 import sys
 
 inFile = open(sys.argv[1], 'r')
@@ -14,5 +16,3 @@ for line in inFile:
         geneID = data[-1].split('gene_id')[-1].split(';')[0].strip()[1:-1]
         data[-1] = f'"ID="{geneID}; "GID="{transcriptID}'
         print('\t'.join(data))
-
-

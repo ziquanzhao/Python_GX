@@ -84,7 +84,7 @@ def software_menu():
     print("\033[1;31m==\033[0m 2. Trimmomatic-0.39                                             \033[1;31m==\033[0m")
     print("\033[1;31m==\033[0m 3. Hisat2-2.2.1                                                 \033[1;31m==\033[0m")
     print("\033[1;31m==\033[0m 4. Samtools-1.15.1                                              \033[1;31m==\033[0m")
-    print("\033[1;31m==\033[0m 5. FeatureCounts-2.0.6                                          \033[1;31m==\033[0m")
+    print("\033[1;31m==\033[0m 5. FeatureCounts-2.0.3                                          \033[1;31m==\033[0m")
     print("\033[1;31m=====================================================================\033[0m")
 
 
@@ -132,13 +132,13 @@ def software_download_menu():
                     your_url_04 = 'https://codeload.github.com/ziquanzhao/Samtools-1.15.1/zip/refs/heads/main'
                     download_software(url=your_url_04, software_name='Samtools-1.15.1')
             elif answer == '5':
-                if os.path.exists(f'{WorkPath}/Software/FeatureCounts-2.0.6-main'):
-                    print("\033[1;31mThe 'FeatureCounts-2.0.6-main' folder already exists in the 'Workfile' directory. I think you have successfully installed the 'FeatureCounts-2.0.6' software, so this step is skipped.\033[0m")
-                    print("\033[1;31mIf you are sure that 'FeatureCounts-2.0.6' software is not installed, please delete the 'FeatureCounts-2.0.6-main' folder and the 'FeatureCounts-2.0.61.zip' compressed package and perform this step again.\033[0m")
+                if os.path.exists(f'{WorkPath}/Software/FeatureCounts-2.0.3-main'):
+                    print("\033[1;31mThe 'FeatureCounts-2.0.3-main' folder already exists in the 'Workfile' directory. I think you have successfully installed the 'FeatureCounts-2.0.3' software, so this step is skipped.\033[0m")
+                    print("\033[1;31mIf you are sure that 'FeatureCounts-2.0.3' software is not installed, please delete the 'FeatureCounts-2.0.3-main' folder and the 'FeatureCounts-2.0.3.zip' compressed package and perform this step again.\033[0m")
                     pass
                 else:
-                    your_url_05 = 'https://codeload.github.com/ziquanzhao/FeatureCounts-2.0.6/zip/refs/heads/main'
-                    download_software(url=your_url_05, software_name='FeatureCounts-2.0.6')
+                    your_url_05 = 'https://codeload.github.com/ziquanzhao/FeatureCounts-2.0.3/zip/refs/heads/main'
+                    download_software(url=your_url_05, software_name='FeatureCounts-2.0.3')
             else:
                 print("")
                 raise Exception("\033[1;36mYou can only select one character from '0/1/2/3/4/5' and cannot enter other characters.\033[0m")
@@ -239,7 +239,7 @@ def hisat2_mapping_refseq_4(threads=8):
     choose(shell_filepath='hisat2_mapping_refseq_4')
 
 
-def gene_expression_quantification_5(gff_file_path, threads=8):
+def gene_expression_quantification_5(gtf_file_path, threads=8):
     """
 
     input_files (files)：包含read mapping结果的read文件名称，程序会自动检测文件格式(SAM或BAM)，可同时提供多个文件。
@@ -290,17 +290,17 @@ def gene_expression_quantification_5(gff_file_path, threads=8):
     −−splitOnly：如果指定，则只对split alignments进行count(CIGAR字符串包含N)。所有其他alignments都将被忽略。
     −−tmpDir <string>：保存中间文件(稍后删除)的目录。默认中间文件保存到-o参数中指定的目录(在R中默认中间文件保存到当前工作目录)。
     −−verbose：输出详细的调试信息，例如read和注释之间不匹配的染色体/contigs。
+    :param gtf_file_path:
     :param threads:
-    :param gff_file_path:
     """
     folder_exist_setup(folder='gene_expression_quantification_5')
-    os.system(f'cp {gff_file_path} {WorkPath}/WorkFile/gene_expression_quantification_5/YourReferenceGenomeGff.gff3')
+    os.system(f'cp {gtf_file_path} {WorkPath}/WorkFile/gene_expression_quantification_5/YourReferenceGenomeGTF.gtf')
     with open(f'{WorkPath}/WorkFile/gene_expression_quantification_5/gene_expression_quantification_5.sh', 'w') as quantification:
         quantification.write('#!/bin/bash\n')
         for filename in os.listdir(f'{WorkPath}/WorkFile/hisat2_mapping_refseq_4/'):
             if '_final.bam' in filename:
                 filename = re.sub('_final.bam', '', filename)
-                quantification.write(f'{WorkPath}/Software/FeatureCounts-2.0.6-main/bin/featureCounts -a {WorkPath}/WorkFile/gene_expression_quantification_5/YourReferenceGenomeGff.gff3 -T {threads} -p --countReadPairs -g gene_id -t exon -o {WorkPath}/WorkFile/gene_expression_quantification_5/{filename}.txt {WorkPath}/WorkFile/gene_expression_quantification_5/{filename}_final.bam\n')
+                quantification.write(f'{WorkPath}/Software/FeatureCounts-2.0.3-main/bin/featureCounts -a {WorkPath}/WorkFile/gene_expression_quantification_5/YourReferenceGenomeGTF.gtf -T {threads} -p --countReadPairs -g gene_id -t exon -o {WorkPath}/WorkFile/gene_expression_quantification_5/{filename}.txt {WorkPath}/WorkFile/hisat2_mapping_refseq_4/{filename}_final.bam\n')
                 quantification.write(f'cat {WorkPath}/WorkFile/gene_expression_quantification_5/{filename}.txt | cut -f 1,7 > {WorkPath}/WorkFile/gene_expression_quantification_5/{filename}.count\n')
     choose(shell_filepath='gene_expression_quantification_5')
 
@@ -316,13 +316,25 @@ def countstable_6():
                 countID.append(f'{WorkPath}/WorkFile/gene_expression_quantification_5/{countfilename}')
                 countsNUM = countsNUM + 1
         countID = ' '.join(countID)
-        counts.write(f'paste {countID} > {WorkPath}/WorkFile/countstable_6/final_countstable')
+        counts.write(f'paste {countID} > {WorkPath}/WorkFile/countstable_6/final_countstable\n')
+        counts.write(f"sed -i '/#/d' {WorkPath}/WorkFile/countstable_6/final_countstable\n")
+        counts.write(f"sed -i 's#/mnt/e/Python/Python_apply/EasyWGCNA/WorkFile/hisat2_mapping_refseq_4/##g' {WorkPath}/WorkFile/countstable_6/final_countstable\n")
+        counts.write(f"sed -i 's/_final.bam//g' {WorkPath}/WorkFile/countstable_6/final_countstable\n")
         delete_column = []
         for i in range(1, countsNUM, 1):
             i = i*2+1
             delete_column.append(f'${i}="";')
         delete_column = ''.join(delete_column)
-        delete_column = f'{delete_column}print $0'
-        delete_column = {delete_column}
-        counts.write(f"awk \'{delete_column}\' {WorkPath}/WorkFile/countstable_6/final_countstable > YourFinalCounts.txt")
+        delete_column = "{"f'{delete_column}print $0'"}"
+        counts.write(f"awk \'{delete_column}\' {WorkPath}/WorkFile/countstable_6/final_countstable > {WorkPath}/WorkFile/countstable_6/YourFinalCounts.txt")
     choose(shell_filepath='countstable_6')
+
+def TPM_FPKM_calculate_7():
+    folder_exist_setup(folder='TPM_FPKM_calculate_7')
+    with open(f'{WorkPath}/WorkFile/TPM_FPKM_calculate_7/TPM_FPKM_calculate_7.sh', 'w') as tpm_fpkm:
+        tpm_fpkm.write('#!/bin/bash\n')
+        tpm_fpkm.write(f'cp {WorkPath}/WorkFile/countstable_6/YourFinalCounts.txt {WorkPath}/Script/\n')
+        tpm_fpkm.write(f'Rscript {WorkPath}/Script/TPM_FPKM.R\n')
+        tpm_fpkm.write(f'rm {WorkPath}/Script/YourFinalCounts.txt\n')
+        tpm_fpkm.write(f'mv {WorkPath}/Script/YourFinalFPKM.xls {WorkPath}/Script/YourFinalTPM.xls {WorkPath}/WorkFile/TPM_FPKM_calculate_7/')
+    choose(shell_filepath='TPM_FPKM_calculate_7')

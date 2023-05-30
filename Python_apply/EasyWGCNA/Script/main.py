@@ -34,6 +34,7 @@ def main_menu():
     print("\033[1;31m==\033[0m 5. Hisat2 mapping refseq                                                      \033[1;31m==\033[0m")
     print("\033[1;31m==\033[0m 6. Gene expression quantification                                             \033[1;31m==\033[0m")
     print("\033[1;31m==\033[0m 7. Countstable                                                                \033[1;31m==\033[0m")
+    print("\033[1;31m==\033[0m 8. TPM_FPKM_calculate                                                         \033[1;31m==\033[0m")
     print("\033[1;31m===================================================================================\033[0m")
 
 
@@ -58,10 +59,10 @@ while True:
             print('')
             print('')
             print('\033[1;31m====================================================\033[0m\033[1;36mDescriptionDocument\033[0m\033[1;31m===========================================================\033[0m')
-            print('\033[1;31m==\033[0m  1.Please install Java (version 17 and above), python (version 3.7 and above), R (version 4.0 and above) before use.                                      \033[1;31m==\033[0m')
-            print('\033[1;31m==\033[0m  3.This program needs to download software from Github and Google Cloud Disk. Go online scientifically.                      \033[1;31m==\033[0m')
-            print('\033[1;31m==\033[0m  4.This program will generate a series of intermediate files and directories based on your resequencing data and reference   \033[1;31m==\033[0m')
-            print('\033[1;31m==\033[0m    genome data. These files and directories have built-in names and paths, so please do not change them at will.             \033[1;31m==\033[0m')
+            print('\033[1;31m==\033[0m  1.Please install Java (version 17 and above), python (version 3.7 and above), R (version 4.0 and above) before use.         \033[1;31m==\033[0m')
+            print('\033[1;31m==\033[0m  2.This program needs to download software from Github and Google Cloud Disk. Go online scientifically.                      \033[1;31m==\033[0m')
+            print('\033[1;31m==\033[0m  3.Prepare your reference genome and GTF format annotation file, and ensure that the chromosome representation of genome     \033[1;31m==\033[0m')
+            print('\033[1;31m==\033[0m     file and annotation file is uniform.                                                                                     \033[1;31m==\033[0m')
             print('\033[1;31m==================================================================================================================================\033[0m')
             print("\033[1;36mOkay, congratulations! you have read the documentation. Follow the main menu prompts below to carry out your research!\033[0m")
             print('')
@@ -86,14 +87,14 @@ while True:
         choose = int(input("\033[1;31mPlease enter the number of the step you wish to perform:\033[0m"))
         if choose == 0:
             print("")
-            print("\033[1;36mAre you going to continue using EasyGWAS?(y/Y/yes/YES/n/no/N/NO)\033[0m")
+            print("\033[1;36mAre you going to continue using EasyWGCNA?(y/Y/yes/YES/n/no/N/NO)\033[0m")
             answer = input("\033[1;31mPlease enter your choice here: \033[0m")
             try:
                 if answer == "y" or answer == "Y" or answer == "yes" or answer == "YES":
                     continue
                 elif answer == "n" or answer == "N" or answer == "no" or answer == "NO":
                     print("")
-                    print("\033[1;36mThanks for using EasyGWAS and good luck!\033[0m")
+                    print("\033[1;36mThanks for using EasyWGCNA and good luck!\033[0m")
                     break
                 else:
                     print("")
@@ -117,11 +118,14 @@ while True:
             KeyFunctions.hisat2_mapping_refseq_4()
             print('')
         elif choose == 6:
-            gff_file = input("\033[1;31mPlease tell me the absolute path to your GFF3 file (be sure to include the genome file name)：\033[0m")
-            KeyFunctions.gene_expression_quantification_5(gff_file_path=gff_file)
+            gtf_file = input("\033[1;31mPlease tell me the absolute path to your GTF file (be sure to include the genome file name)：\033[0m")
+            KeyFunctions.gene_expression_quantification_5(gtf_file_path=gtf_file)
             print("")
         elif choose == 7:
             KeyFunctions.countstable_6()
+            print('')
+        elif choose == 8:
+            KeyFunctions.TPM_FPKM_calculate_7()
             print('')
         else:
             print('\033[1;36mThe number you entered is not a list number.\033[0m')
@@ -133,7 +137,7 @@ while True:
         print("")
     else:
         print("")
-        print("\033[1;36mAre you going to continue using EasyGWAS?(y/Y/yes/YES/n/no/N/NO)\033[0m")
+        print("\033[1;36mAre you going to continue using EasyWGCNA?(y/Y/yes/YES/n/no/N/NO)\033[0m")
         answer = input("\033[1;31mPlease enter your choice here: \033[0m")
         try:
             if answer == "y" or answer == "Y" or answer == "yes" or answer == "YES":
