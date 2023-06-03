@@ -13,10 +13,12 @@ enableWGCNAThreads()
 # 加载包，打开多线程
 
 
-FpkmData <- read.xlsx(xlsxFile = 'YourFinalFPKM.xlsx', sheet = 'log2(x+1)_FPKM',colNames = T,rowNames = T)
+FpkmData <- read.xlsx(xlsxFile = 'YourFinalFPKM.xlsx', sheet = 'Normal_FPKM',colNames = T,rowNames = T)
 FpkmData <- as.data.frame(t(FpkmData))
 #处理数据格式，要求每列为基因，每行为一个样本。并且为数值矩阵。
 
+FpkmData <- FpkmData[,colSums(FpkmData>=1)>=length(rownames(FpkmData))]
+#过滤掉不表达的基因。
 
 gsg <- goodSamplesGenes(FpkmData, verbose = 3)
 gsg$allOK
@@ -267,6 +269,7 @@ dev.off()
 #这样首先可以简单确定一下基因之间的关系（可以猜测一下不同基因间上下游关系或者互作关系）
 #其次可以确定这个模块中那些基因是关键节点基因，这个基因就是我们的性状候选基因。
 #TOM值（模块调控系表中的weight值）大于阈值（默认是0.15)的两个基因才认为是相关的，然后计算每个基因的连接度。即先筛选有足够强度的关系，然后计算连接度。
+#导出VisANT网络文件
 annot <- read.csv(file = "YourGeneAnnotation.csv")
 module <- "darkturquoise"
 probes <- names(FpkmData)
@@ -280,8 +283,26 @@ top <- (rank(-IMConn) <= nTop)
 vis <- exportNetworkToVisANT(modTOM[top, top],
                             file = paste("VisANT-", module, "-top30.txt", sep=""),
                             weighted = TRUE,
-                            threshold = 0.5,#阈值（默认是0.15)的两个基因才认为是相关的
+                            threshold = 0.1,#阈值根据需要而定
                             probeToGene = data.frame(annot$GeneID, annot$GeneSymbol) )
+
+#导出Cytoscape网络文件
+annot = read.csv(file = "YourGeneAnnotation.csv")
+module <- "darkturquoise"
+probes <- names(FpkmData)
+inModule = is.finite(match(moduleColors, modules))
+modProbes = probes[inModule]
+modGenes = annot$GeneSymbol[match(modProbes, annot$GeneID)]
+modTOM = TOM[inModule, inModule]
+dimnames(modTOM) = list(modProbes, modProbes)
+cyt = exportNetworkToCytoscape(modTOM,
+                               edgeFile = paste("CytoscapeInput-edges-", paste(modules, collapse="-"), ".txt", sep=""),
+                               nodeFile = paste("CytoscapeInput-nodes-", paste(modules, collapse="-"), ".txt", sep=""),
+                               weighted = TRUE,
+                               threshold = 0.02,#阈值根据需要而定
+                               nodeNames = modProbes,
+                               altNodeNames = modGenes,
+                               nodeAttr = moduleColors[inModule])
 
 
 
