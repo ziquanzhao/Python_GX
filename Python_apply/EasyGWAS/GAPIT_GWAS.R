@@ -6,8 +6,6 @@ source("http://zzlab.net/GAPIT/gapit_functions.txt")
 source("http://zzlab.net/GAPIT/emma.txt")
 
 
-library(GAPIT3)
-
 setwd("E:/R/reaslut/MYgwas")
 myY <- read.table('TL222taxa.txt',header = T)
 myG <- read.table('TLsample231_gene01.hmp.txt',header = F)
