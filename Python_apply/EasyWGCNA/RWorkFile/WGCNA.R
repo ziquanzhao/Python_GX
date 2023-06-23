@@ -17,7 +17,7 @@ FpkmData <- read.xlsx(xlsxFile = 'YourFinalFPKM.xlsx', sheet = 'Normal_FPKM',col
 FpkmData <- as.data.frame(t(FpkmData))
 #处理数据格式，要求每列为基因，每行为一个样本。并且为数值矩阵。
 
-FpkmData <- FpkmData[,colSums(FpkmData>=1)>=length(rownames(FpkmData))]
+FpkmData <- FpkmData[,colSums(FpkmData)>=length(rownames(FpkmData))]
 #过滤掉不表达的基因。
 
 gsg <- goodSamplesGenes(FpkmData, verbose = 3)
