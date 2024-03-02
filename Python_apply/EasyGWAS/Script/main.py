@@ -19,8 +19,6 @@ def welcome():
     print('\033[1;31m==\033[0m                                                                                                                     \033[1;31m==\033[0m')
     print("\033[1;31m=========================================================================================================================\033[0m")
     print("")
-    print("\033[1;36mOkay, guys, let's get started!\033[0m")
-    print("\033[1;36mIf you know your enemy, you will never lose. I have a detailed description of how to use the software, you need to read it carefully before you use it!\033[0m")
 
 
 def main_menu():
@@ -28,7 +26,6 @@ def main_menu():
     print("\033[1;31m=====================================\033[0m\033[0m\033[1;36mMain Menu\033[0m\033[1;31m=====================================\033[0m")
     print("\033[1;31m==\033[0m 0. Exit script                                                                \033[1;31m==\033[0m")
     print("\033[1;31m==\033[0m 1. Download the necessary software for genome-wide association analysis       \033[1;31m==\033[0m")
-    print("\033[1;31m==\033[0m 13. FastQC software to check the quality of resequenced data                  \033[1;31m==\033[0m")
     print("\033[1;31m==\033[0m 2. Filtering the raw resequencing data                                        \033[1;31m==\033[0m")
     print("\033[1;31m==\033[0m 3. Building reference genome index                                            \033[1;31m==\033[0m")
     print("\033[1;31m==\033[0m 4. Conversion and sorting of Sam and Bam formats                              \033[1;31m==\033[0m")
@@ -37,11 +34,12 @@ def main_menu():
     print("\033[1;31m==\033[0m 7. Searching for SNP and INDEL variants                                       \033[1;31m==\033[0m")
     print("\033[1;31m==\033[0m 8. Conversion of gvcf and vcf file formats                                    \033[1;31m==\033[0m")
     print("\033[1;31m==\033[0m 9. Splitting SNP and INDEL variants                                           \033[1;31m==\033[0m")
-    print("\033[1;31m==\033[0m 14. Check SNP and INDEL data quality                                          \033[1;31m==\033[0m")
     print("\033[1;31m==\033[0m 10. Filtering low quality SNP and INDEL                                       \033[1;31m==\033[0m")
     print("\033[1;31m==\033[0m 11. Merge filtered SNP and INDEL                                              \033[1;31m==\033[0m")
-    print("\033[1;31m==\033[0m 15. Missing rate, minimum allele frequency and Harwin equilibrium statistics  \033[1;31m==\033[0m")
     print("\033[1;31m==\033[0m 12. Missing rate, minimum allele frequency and Harwin equilibrium filtering   \033[1;31m==\033[0m")
+    print("\033[1;31m==\033[0m 13. FastQC software to check the quality of resequenced data                  \033[1;31m==\033[0m")
+    print("\033[1;31m==\033[0m 14. Check SNP and INDEL data quality                                          \033[1;31m==\033[0m")
+    print("\033[1;31m==\033[0m 15. Missing rate, minimum allele frequency and Harwin equilibrium statistics  \033[1;31m==\033[0m")
     print("\033[1;31m==\033[0m 16. Vcf format file to Hapmap format file                                     \033[1;31m==\033[0m")
     print("\033[1;31m===================================================================================\033[0m")
 
@@ -57,38 +55,6 @@ if os.path.exists('../WorkFile'):
     pass
 else:
     os.mkdir('../WorkFile')
-
-while True:
-    print("\033[1;36mIf you want to read, enter: y/Y/yes/YES ; if you don't want to read, enter: n/N/no/NO, skip this step. \033[0m")
-    answer = input("\033[1;31mPlease enter your choice here: \033[0m")
-    print("")
-    try:
-        if answer == "y" or answer == "Y" or answer == "yes" or answer == "YES":
-            print('')
-            print('')
-            print('\033[1;31m====================================================\033[0m\033[1;36mDescriptionDocument\033[0m\033[1;31m===========================================================\033[0m')
-            print('\033[1;31m==\033[0m  1.Please install Java (version 17 and above), python (version 3.7 and above), R (version 4.0 and above) before use.         \033[1;31m==\033[0m')
-            print('\033[1;31m==\033[0m  2.Please pay attention to the ID naming rules of chromosomes in your reference genome. For example, "Lachesis_group".       \033[1;31m==\033[0m')
-            print('\033[1;31m==\033[0m    If not, you need to adjust the code.                                                                                      \033[1;31m==\033[0m')
-            print('\033[1;31m==\033[0m  3.This program needs to download software from Github and Google Cloud Disk. Go online scientifically.                      \033[1;31m==\033[0m')
-            print('\033[1;31m==\033[0m  4.This program will generate a series of intermediate files and directories based on your resequencing data and reference   \033[1;31m==\033[0m')
-            print('\033[1;31m==\033[0m    genome data. These files and directories have built-in names and paths, so please do not change them at will.             \033[1;31m==\033[0m')
-            print('\033[1;31m==================================================================================================================================\033[0m')
-            print("\033[1;36mOkay, congratulations! you have read the documentation. Follow the main menu prompts below to carry out your research!\033[0m")
-            print('')
-            print('')
-            break
-        elif answer == "n" or answer == "N" or answer == "no" or answer == "NO":
-            break
-        else:
-            print("")
-            raise Exception("\033[1;36mYou can only select one character from 'y/Y/yes/YES/n/N/no/NO' and cannot enter other characters.\033[0m")
-    except FileNotFoundError:
-        print("")
-        print(f"\033[1;36mCheck carefully, have you deleted or renamed Description_document.txt file in yourpath/EasyGWAS/DescriptionDocument/ folder?\033[0m")
-        print(f"\033[1;36mThe program currently cannot find the Description_document.txt file in yourpath/EasyGWAS/DescriptionDocument/ folder.\033[0m")
-    except Exception as Error:
-        print(Error)
 
 
 while True:
